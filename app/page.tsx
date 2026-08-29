@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { projects, sections, siteSettings } from "@/lib/content";
@@ -53,12 +56,14 @@ function IndexSection({ title, number, items }: { title: string; number: string;
 }
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
   const personal = projects.filter((project) => project.section === "Personal Work");
   const commercial = projects.filter((project) => project.section === "Commercial Work");
   return (
     <main className="site-shell">
       <Sidebar />
-      <div className="mobile-bar"><Link className="brand-link" href="/">{siteSettings.name}</Link><a href="#menu" className="menu-toggle">Menu</a></div>
+      <div className="mobile-bar"><Link className="brand-link" href="/">{siteSettings.name}</Link><button type="button" className="menu-toggle" aria-expanded={menuOpen} aria-controls="mobile-menu" onClick={() => setMenuOpen((open) => !open)}>{menuOpen ? "Close" : "Menu"}</button></div>
+      {menuOpen && <div className="mobile-menu" id="mobile-menu"><div className="mobile-menu-inner"><p className="eyebrow">Index</p>{sections.map((section) => <div className="mobile-menu-group" key={section.title}><a href={`#${section.title.toLowerCase().replaceAll(" ", "-")}`} onClick={() => setMenuOpen(false)}>{section.title}</a>{projects.filter((project) => project.section === section.title).map((project) => <Link href={`/project/${project.slug}`} key={project.slug} onClick={() => setMenuOpen(false)}>{project.title}</Link>)}</div>)}<a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></div></div>}
       <div className="page-content">
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero-copy"><p className="eyebrow">{siteSettings.label} / {siteSettings.years}</p><h1 id="hero-title">Park Hojun<br /><span>Portfolio</span></h1></div>
