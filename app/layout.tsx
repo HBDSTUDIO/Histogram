@@ -9,10 +9,9 @@ const metadataOrigin = process.env.VERCEL_PROJECT_PRODUCTION_URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(metadataOrigin),
-  title: "Park Hojun — Portfolio",
-  description: "Photography and content archive by Park Hojun.",
-  openGraph: { title: "Park Hojun — Portfolio", description: "Photography and content archive by Park Hojun.", type: "website", images: ["/og.png"] },
-  twitter: { card: "summary_large_image", title: "Park Hojun — Portfolio", description: "Photography and content archive by Park Hojun.", images: ["/og.png"] },
+  title: "PARK HOJUN photography",
+  openGraph: { title: "PARK HOJUN photography", type: "website", images: ["/og.jpg"] },
+  twitter: { card: "summary_large_image", title: "PARK HOJUN photography", images: ["/og.jpg"] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
