@@ -53,8 +53,8 @@
         "21FW",
         "22SS",
         "Fashion",
-        "FOOD",
-        "FXL after party"
+        "food",
+        "sketch"
       ]
     }
   ],
@@ -75,7 +75,7 @@
           "contribution": 100
         }
       ],
-      "contribution": 100,
+      "contribution": 0,
       "client": "",
       "cover": {
         "src": "/media/portfolio/usa/01.webp",
@@ -899,7 +899,7 @@
     },
     {
       "slug": "movement",
-      "title": "Danang",
+      "title": "movement",
       "section": "Personal Work",
       "sectionOrder": 1,
       "projectOrder": 2,
@@ -913,86 +913,86 @@
           "contribution": 100
         }
       ],
-      "contribution": 100,
+      "contribution": 0,
       "client": "",
       "cover": {
         "src": "/media/portfolio/movement/01.webp",
         "width": 1366,
         "height": 2048,
-        "alt": "Danang 1"
+        "alt": "movement 1"
       },
       "images": [
         {
           "src": "/media/portfolio/movement/01.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang 1"
+          "alt": "movement 1"
         },
         {
           "src": "/media/portfolio/movement/02.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang 2"
+          "alt": "movement 2"
         },
         {
           "src": "/media/portfolio/movement/03.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang 3"
+          "alt": "movement 3"
         },
         {
           "src": "/media/portfolio/movement/04.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang 4"
+          "alt": "movement 4"
         },
         {
           "src": "/media/portfolio/movement/05.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang 5"
+          "alt": "movement 5"
         },
         {
           "src": "/media/portfolio/movement/06.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang 6"
+          "alt": "movement 6"
         },
         {
           "src": "/media/portfolio/movement/07.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang 7"
+          "alt": "movement 7"
         },
         {
           "src": "/media/portfolio/movement/08.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang 8"
+          "alt": "movement 8"
         },
         {
           "src": "/media/portfolio/movement/09.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Danang 9"
+          "alt": "movement 9"
         },
         {
           "src": "/media/portfolio/movement/10.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Danang 10"
+          "alt": "movement 10"
         },
         {
           "src": "/media/portfolio/movement/11.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Danang 11"
+          "alt": "movement 11"
         },
         {
           "src": "/media/portfolio/movement/12.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Danang 12"
+          "alt": "movement 12"
         }
       ],
       "wallImages": [],
@@ -1005,7 +1005,7 @@
               "src": "/media/portfolio/movement/01.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang 1"
+              "alt": "movement 1"
             }
           ]
         },
@@ -1016,7 +1016,7 @@
               "src": "/media/portfolio/movement/02.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang 2"
+              "alt": "movement 2"
             }
           ]
         },
@@ -1027,7 +1027,7 @@
               "src": "/media/portfolio/movement/03.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang 3"
+              "alt": "movement 3"
             }
           ]
         },
@@ -1038,7 +1038,7 @@
               "src": "/media/portfolio/movement/04.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang 4"
+              "alt": "movement 4"
             }
           ]
         },
@@ -1049,7 +1049,7 @@
               "src": "/media/portfolio/movement/05.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang 5"
+              "alt": "movement 5"
             }
           ]
         },
@@ -1060,7 +1060,7 @@
               "src": "/media/portfolio/movement/06.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang 6"
+              "alt": "movement 6"
             }
           ]
         },
@@ -1071,7 +1071,7 @@
               "src": "/media/portfolio/movement/07.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang 7"
+              "alt": "movement 7"
             }
           ]
         },
@@ -1082,7 +1082,7 @@
               "src": "/media/portfolio/movement/08.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang 8"
+              "alt": "movement 8"
             }
           ]
         },
@@ -1093,7 +1093,7 @@
               "src": "/media/portfolio/movement/09.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Danang 9"
+              "alt": "movement 9"
             }
           ]
         },
@@ -1104,7 +1104,7 @@
               "src": "/media/portfolio/movement/10.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Danang 10"
+              "alt": "movement 10"
             }
           ]
         },
@@ -1115,7 +1115,7 @@
               "src": "/media/portfolio/movement/11.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Danang 11"
+              "alt": "movement 11"
             }
           ]
         },
@@ -1126,7 +1126,7 @@
               "src": "/media/portfolio/movement/12.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Danang 12"
+              "alt": "movement 12"
             }
           ]
         }
@@ -1152,7 +1152,7 @@
           "contribution": 100
         }
       ],
-      "contribution": 100,
+      "contribution": 0,
       "client": "",
       "cover": {
         "src": "/media/portfolio/o2o-firstroast-coffee/01.webp",
@@ -1325,8 +1325,8 @@
       "isCollection": false
     },
     {
-      "slug": "chinese-gp",
-      "title": "Chinese GP",
+      "slug": "china-gp",
+      "title": "China GP",
       "section": "Personal Work",
       "sectionOrder": 1,
       "projectOrder": 4,
@@ -1340,74 +1340,74 @@
           "contribution": 100
         }
       ],
-      "contribution": 100,
+      "contribution": 0,
       "client": "",
       "cover": {
-        "src": "/media/portfolio/chinese-gp/01.webp",
+        "src": "/media/portfolio/china-gp/01.webp",
         "width": 1517,
         "height": 2048,
-        "alt": "Chinese GP 1"
+        "alt": "China GP 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/chinese-gp/01.webp",
+          "src": "/media/portfolio/china-gp/01.webp",
           "width": 1517,
           "height": 2048,
-          "alt": "Chinese GP 1"
+          "alt": "China GP 1"
         },
         {
-          "src": "/media/portfolio/chinese-gp/02.webp",
+          "src": "/media/portfolio/china-gp/02.webp",
           "width": 1517,
           "height": 2048,
-          "alt": "Chinese GP 2"
+          "alt": "China GP 2"
         },
         {
-          "src": "/media/portfolio/chinese-gp/03.webp",
+          "src": "/media/portfolio/china-gp/03.webp",
           "width": 1517,
           "height": 2048,
-          "alt": "Chinese GP 3"
+          "alt": "China GP 3"
         },
         {
-          "src": "/media/portfolio/chinese-gp/04.webp",
+          "src": "/media/portfolio/china-gp/04.webp",
           "width": 2048,
           "height": 1517,
-          "alt": "Chinese GP 4"
+          "alt": "China GP 4"
         },
         {
-          "src": "/media/portfolio/chinese-gp/05.webp",
+          "src": "/media/portfolio/china-gp/05.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Chinese GP 5"
+          "alt": "China GP 5"
         },
         {
-          "src": "/media/portfolio/chinese-gp/06.webp",
+          "src": "/media/portfolio/china-gp/06.webp",
           "width": 1517,
           "height": 2048,
-          "alt": "Chinese GP 6"
+          "alt": "China GP 6"
         },
         {
-          "src": "/media/portfolio/chinese-gp/07.webp",
+          "src": "/media/portfolio/china-gp/07.webp",
           "width": 1517,
           "height": 2048,
-          "alt": "Chinese GP 7"
+          "alt": "China GP 7"
         },
         {
-          "src": "/media/portfolio/chinese-gp/08.webp",
+          "src": "/media/portfolio/china-gp/08.webp",
           "width": 1517,
           "height": 2048,
-          "alt": "Chinese GP 8"
+          "alt": "China GP 8"
         },
         {
-          "src": "/media/portfolio/chinese-gp/09.webp",
+          "src": "/media/portfolio/china-gp/09.webp",
           "width": 1517,
           "height": 2048,
-          "alt": "Chinese GP 9"
+          "alt": "China GP 9"
         },
         {
-          "src": "/media/portfolio/chinese-gp/10.webp",
+          "src": "/media/portfolio/china-gp/10.webp",
           "width": 2048,
           "height": 1517,
-          "alt": "Chinese GP 10"
+          "alt": "China GP 10"
         }
       ],
       "wallImages": [],
@@ -1417,10 +1417,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/01.webp",
+              "src": "/media/portfolio/china-gp/01.webp",
               "width": 1517,
               "height": 2048,
-              "alt": "Chinese GP 1"
+              "alt": "China GP 1"
             }
           ]
         },
@@ -1428,10 +1428,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/02.webp",
+              "src": "/media/portfolio/china-gp/02.webp",
               "width": 1517,
               "height": 2048,
-              "alt": "Chinese GP 2"
+              "alt": "China GP 2"
             }
           ]
         },
@@ -1439,10 +1439,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/03.webp",
+              "src": "/media/portfolio/china-gp/03.webp",
               "width": 1517,
               "height": 2048,
-              "alt": "Chinese GP 3"
+              "alt": "China GP 3"
             }
           ]
         },
@@ -1450,10 +1450,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/04.webp",
+              "src": "/media/portfolio/china-gp/04.webp",
               "width": 2048,
               "height": 1517,
-              "alt": "Chinese GP 4"
+              "alt": "China GP 4"
             }
           ]
         },
@@ -1461,10 +1461,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/05.webp",
+              "src": "/media/portfolio/china-gp/05.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Chinese GP 5"
+              "alt": "China GP 5"
             }
           ]
         },
@@ -1472,10 +1472,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/06.webp",
+              "src": "/media/portfolio/china-gp/06.webp",
               "width": 1517,
               "height": 2048,
-              "alt": "Chinese GP 6"
+              "alt": "China GP 6"
             }
           ]
         },
@@ -1483,10 +1483,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/07.webp",
+              "src": "/media/portfolio/china-gp/07.webp",
               "width": 1517,
               "height": 2048,
-              "alt": "Chinese GP 7"
+              "alt": "China GP 7"
             }
           ]
         },
@@ -1494,10 +1494,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/08.webp",
+              "src": "/media/portfolio/china-gp/08.webp",
               "width": 1517,
               "height": 2048,
-              "alt": "Chinese GP 8"
+              "alt": "China GP 8"
             }
           ]
         },
@@ -1505,10 +1505,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/09.webp",
+              "src": "/media/portfolio/china-gp/09.webp",
               "width": 1517,
               "height": 2048,
-              "alt": "Chinese GP 9"
+              "alt": "China GP 9"
             }
           ]
         },
@@ -1516,10 +1516,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/chinese-gp/10.webp",
+              "src": "/media/portfolio/china-gp/10.webp",
               "width": 2048,
               "height": 1517,
-              "alt": "Chinese GP 10"
+              "alt": "China GP 10"
             }
           ]
         }
@@ -1561,7 +1561,7 @@
           "contribution": 80
         }
       ],
-      "contribution": 80,
+      "contribution": 0,
       "client": "Wiselycompany",
       "cover": {
         "src": "/media/portfolio/wisetable/01.webp",
@@ -2031,22 +2031,26 @@
       "category": "Beauty",
       "summary": "",
       "year": "2026",
-      "role": "Photography, Retouching, Visual identity",
+      "role": "Photography, Retouching, Visual identity, Styling",
       "roles": [
         {
           "name": "Photography",
-          "contribution": 80
+          "contribution": 100
         },
         {
           "name": "Retouching",
-          "contribution": 80
+          "contribution": 100
         },
         {
           "name": "Visual identity",
-          "contribution": 80
+          "contribution": 50
+        },
+        {
+          "name": "Styling",
+          "contribution": 70
         }
       ],
-      "contribution": 80,
+      "contribution": 0,
       "client": "Axiom",
       "cover": {
         "src": "/media/portfolio/roadic/01.webp",
@@ -2467,10 +2471,10 @@
       "roles": [
         {
           "name": "Creative Director",
-          "contribution": 100100100
+          "contribution": 100
         }
       ],
-      "contribution": 100100100,
+      "contribution": 0,
       "client": "RUFFNTUFF",
       "cover": {
         "src": "/media/portfolio/ruffntuff/21ss/01.webp",
@@ -3498,29 +3502,34 @@
       "section": "Commercial Work",
       "sectionOrder": 2,
       "projectOrder": 4,
-      "category": "FOOD",
+      "category": "food",
       "summary": "",
-      "year": "",
-      "role": "",
-      "roles": [],
+      "year": "2023-2026",
+      "role": "photography 100 styling 100 editing",
+      "roles": [
+        {
+          "name": "photography 100 styling 100 editing",
+          "contribution": 100
+        }
+      ],
       "contribution": 0,
-      "client": "",
+      "client": "wiselycompany",
       "cover": {
         "src": "/media/portfolio/food/01.webp",
-        "width": 1042,
-        "height": 1440,
+        "width": 1440,
+        "height": 960,
         "alt": "FOOD 1"
       },
       "images": [
         {
           "src": "/media/portfolio/food/01.webp",
-          "width": 1042,
-          "height": 1440,
+          "width": 1440,
+          "height": 960,
           "alt": "FOOD 1"
         },
         {
           "src": "/media/portfolio/food/02.webp",
-          "width": 961,
+          "width": 1042,
           "height": 1440,
           "alt": "FOOD 2"
         },
@@ -3529,6 +3538,12 @@
           "width": 961,
           "height": 1440,
           "alt": "FOOD 3"
+        },
+        {
+          "src": "/media/portfolio/food/04.webp",
+          "width": 961,
+          "height": 1440,
+          "alt": "FOOD 4"
         }
       ],
       "wallImages": [],
@@ -3539,8 +3554,8 @@
           "images": [
             {
               "src": "/media/portfolio/food/01.webp",
-              "width": 1042,
-              "height": 1440,
+              "width": 1440,
+              "height": 960,
               "alt": "FOOD 1"
             }
           ]
@@ -3550,7 +3565,7 @@
           "images": [
             {
               "src": "/media/portfolio/food/02.webp",
-              "width": 961,
+              "width": 1042,
               "height": 1440,
               "alt": "FOOD 2"
             }
@@ -3566,6 +3581,17 @@
               "alt": "FOOD 3"
             }
           ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/food/04.webp",
+              "width": 961,
+              "height": 1440,
+              "alt": "FOOD 4"
+            }
+          ]
         }
       ],
       "featured": true,
@@ -3579,13 +3605,18 @@
       "section": "Commercial Work",
       "sectionOrder": 2,
       "projectOrder": 11,
-      "category": "FXL after party",
+      "category": "sketch",
       "summary": "",
-      "year": "",
-      "role": "",
-      "roles": [],
+      "year": "2022",
+      "role": "photography",
+      "roles": [
+        {
+          "name": "photography",
+          "contribution": 100
+        }
+      ],
       "contribution": 0,
-      "client": "",
+      "client": "Flow xl crew",
       "cover": {
         "src": "/media/portfolio/fxl-after-party/01.webp",
         "width": 2048,
