@@ -23,7 +23,7 @@ export default function Home() {
   const floatClasses = ["float-one", "float-two", "float-three", "float-four"];
   return <SiteChrome><main className="site-shell" id="top"><div className="page-content">
     <section className="hero" aria-labelledby="hero-title">
-      <div className="hero-copy"><p className="hero-kicker">{siteSettings.name} {siteSettings.label}</p><h1 id="hero-title">{siteSettings.name}<br /><span>{siteSettings.label}</span></h1></div>
+      <div className="hero-copy"><h1 id="hero-title">{siteSettings.name}<br /><span>{siteSettings.label}</span></h1></div>
       <div className="hero-meta"><p>Histogram<br />{siteSettings.years}</p><p className="hero-contact">{siteSettings.email}<br />{siteSettings.instagram}</p></div>
       <svg className="histogram-line" viewBox="0 0 1200 520" preserveAspectRatio="none" aria-hidden="true"><path d="M-40 330 C 80 40, 130 65, 220 300 S 390 535, 520 310 S 700 35, 800 245 S 925 425, 1010 250 S 1140 165, 1245 335" /></svg>
       <div className="floating-projects" aria-label="Personal images">{floatImages.slice(0, 4).map((image, index) => <FloatingImage image={image} className={floatClasses[index]} key={image.src} />)}</div>
