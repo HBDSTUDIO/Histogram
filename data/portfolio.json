@@ -1,0 +1,207 @@
+{
+  "siteSettings": {
+    "name": "Park Hojun",
+    "label": "Portfolio",
+    "years": "2020 to 2026",
+    "phone": "+82 10 0000 0000",
+    "email": "hello@parkhojun.com",
+    "instagram": "@parkhojun",
+    "instagramUrl": "https://instagram.com/"
+  },
+  "sections": [
+    {
+      "title": "Personal Work",
+      "order": 1,
+      "categories": [
+        "PAPILLON",
+        "Danang"
+      ]
+    },
+    {
+      "title": "Commercial Work",
+      "order": 2,
+      "categories": [
+        "Fashion",
+        "Food",
+        "Lifestyle"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "quiet-hours",
+      "title": "Quiet Hours",
+      "section": "Personal Work",
+      "sectionOrder": 1,
+      "projectOrder": 1,
+      "category": "PAPILLON",
+      "summary": "일상의 온도와 색을 관찰하며 기록한 개인 사진 아카이브.",
+      "year": "2024—2026",
+      "role": "Photography",
+      "contribution": 100,
+      "client": "",
+      "cover": {
+        "src": "/media/portfolio/quiet-hours/01.webp",
+        "width": 2400,
+        "height": 1350,
+        "alt": "Quiet Hours 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/quiet-hours/01.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "Quiet Hours 1"
+        },
+        {
+          "src": "/media/portfolio/quiet-hours/02.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "Quiet Hours 2"
+        }
+      ],
+      "featured": true,
+      "homeOrder": 1
+    },
+    {
+      "slug": "danang-notes",
+      "title": "Danang Notes",
+      "section": "Personal Work",
+      "sectionOrder": 1,
+      "projectOrder": 2,
+      "category": "Danang",
+      "summary": "낯선 장소의 표면과 빛을 따라간 짧은 여행 기록.",
+      "year": "2025",
+      "role": "Photography / Editing",
+      "contribution": 100,
+      "client": "",
+      "cover": {
+        "src": "/media/portfolio/danang-notes/01.webp",
+        "width": 2400,
+        "height": 1350,
+        "alt": "Danang Notes 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/danang-notes/01.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "Danang Notes 1"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/02.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "Danang Notes 2"
+        }
+      ],
+      "featured": true,
+      "homeOrder": 2
+    },
+    {
+      "slug": "ruffntuff",
+      "title": "RUFFNTUFF",
+      "section": "Commercial Work",
+      "sectionOrder": 2,
+      "projectOrder": 1,
+      "category": "Fashion",
+      "summary": "브랜드의 질감과 움직임을 이미지 언어로 정리한 캠페인.",
+      "year": "2025",
+      "role": "Photography / Content Direction",
+      "contribution": 70,
+      "client": "RUFFNTUFF",
+      "cover": {
+        "src": "/media/portfolio/ruffntuff/01.webp",
+        "width": 2400,
+        "height": 1350,
+        "alt": "RUFFNTUFF 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/ruffntuff/01.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "RUFFNTUFF 1"
+        },
+        {
+          "src": "/media/portfolio/ruffntuff/02.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "RUFFNTUFF 2"
+        }
+      ],
+      "featured": true,
+      "homeOrder": 3
+    },
+    {
+      "slug": "wisetable",
+      "title": "Wisetable",
+      "section": "Commercial Work",
+      "sectionOrder": 2,
+      "projectOrder": 2,
+      "category": "Food",
+      "summary": "제품의 재료감과 사용 장면을 담은 콘텐츠 시리즈.",
+      "year": "2024",
+      "role": "Photography",
+      "contribution": 60,
+      "client": "Wisetable",
+      "cover": {
+        "src": "/media/portfolio/wisetable/01.webp",
+        "width": 2400,
+        "height": 1350,
+        "alt": "Wisetable 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/wisetable/01.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "Wisetable 1"
+        },
+        {
+          "src": "/media/portfolio/wisetable/02.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "Wisetable 2"
+        }
+      ],
+      "featured": true,
+      "homeOrder": 4
+    },
+    {
+      "slug": "roadic",
+      "title": "ROADIC",
+      "section": "Commercial Work",
+      "sectionOrder": 2,
+      "projectOrder": 3,
+      "category": "Lifestyle",
+      "summary": "움직임이 있는 라이프스타일 제품을 차분한 프레임으로 기록.",
+      "year": "2024",
+      "role": "Photography / Retouching",
+      "contribution": 80,
+      "client": "ROADIC",
+      "cover": {
+        "src": "/media/portfolio/roadic/01.webp",
+        "width": 2400,
+        "height": 1350,
+        "alt": "ROADIC 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/roadic/01.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "ROADIC 1"
+        },
+        {
+          "src": "/media/portfolio/roadic/02.webp",
+          "width": 2400,
+          "height": 1350,
+          "alt": "ROADIC 2"
+        }
+      ],
+      "featured": false,
+      "homeOrder": null
+    }
+  ]
+}

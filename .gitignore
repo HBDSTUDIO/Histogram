@@ -36,3 +36,6 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Local portfolio originals. Publish.command creates and commits optimized web copies.
+/portfolio-content/

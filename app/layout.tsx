@@ -4,7 +4,12 @@ import "@fontsource/jost/500.css";
 import "@fontsource/jost/600.css";
 import "./globals.css";
 
+const metadataOrigin = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "http://localhost:3000";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(metadataOrigin),
   title: "Park Hojun — Portfolio",
   description: "Photography and content archive by Park Hojun.",
   openGraph: { title: "Park Hojun — Portfolio", description: "Photography and content archive by Park Hojun.", type: "website", images: ["/og.png"] },
