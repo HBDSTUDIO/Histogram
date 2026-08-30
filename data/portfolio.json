@@ -1530,6 +1530,194 @@
       "isCollection": false
     },
     {
+      "slug": "pawple",
+      "title": "pawple",
+      "section": "Personal Work",
+      "sectionOrder": 1,
+      "projectOrder": 5,
+      "category": "Personal work",
+      "summary": "",
+      "year": "2025",
+      "role": "Photography 100 Styling",
+      "roles": [
+        {
+          "name": "Photography 100 Styling",
+          "contribution": 100
+        }
+      ],
+      "contribution": 0,
+      "client": "",
+      "cover": {
+        "src": "/media/portfolio/pawple/01.webp",
+        "width": 2161,
+        "height": 2700,
+        "alt": "pawple 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/pawple/01.webp",
+          "width": 2161,
+          "height": 2700,
+          "alt": "pawple 1"
+        },
+        {
+          "src": "/media/portfolio/pawple/02.webp",
+          "width": 1081,
+          "height": 1081,
+          "alt": "pawple 2"
+        },
+        {
+          "src": "/media/portfolio/pawple/03.webp",
+          "width": 1440,
+          "height": 1800,
+          "alt": "pawple 3"
+        },
+        {
+          "src": "/media/portfolio/pawple/04.webp",
+          "width": 1440,
+          "height": 1800,
+          "alt": "pawple 4"
+        },
+        {
+          "src": "/media/portfolio/pawple/05.webp",
+          "width": 1440,
+          "height": 1800,
+          "alt": "pawple 5"
+        },
+        {
+          "src": "/media/portfolio/pawple/06.webp",
+          "width": 1440,
+          "height": 1800,
+          "alt": "pawple 6"
+        },
+        {
+          "src": "/media/portfolio/pawple/07.webp",
+          "width": 1081,
+          "height": 1350,
+          "alt": "pawple 7"
+        },
+        {
+          "src": "/media/portfolio/pawple/08.webp",
+          "width": 1081,
+          "height": 1350,
+          "alt": "pawple 8"
+        },
+        {
+          "src": "/media/portfolio/pawple/09.webp",
+          "width": 1081,
+          "height": 1351,
+          "alt": "pawple 9"
+        }
+      ],
+      "wallImages": [],
+      "wallInsertAfter": 0,
+      "galleryBlocks": [
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/01.webp",
+              "width": 2161,
+              "height": 2700,
+              "alt": "pawple 1"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/02.webp",
+              "width": 1081,
+              "height": 1081,
+              "alt": "pawple 2"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/03.webp",
+              "width": 1440,
+              "height": 1800,
+              "alt": "pawple 3"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/04.webp",
+              "width": 1440,
+              "height": 1800,
+              "alt": "pawple 4"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/05.webp",
+              "width": 1440,
+              "height": 1800,
+              "alt": "pawple 5"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/06.webp",
+              "width": 1440,
+              "height": 1800,
+              "alt": "pawple 6"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/07.webp",
+              "width": 1081,
+              "height": 1350,
+              "alt": "pawple 7"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/08.webp",
+              "width": 1081,
+              "height": 1350,
+              "alt": "pawple 8"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/pawple/09.webp",
+              "width": 1081,
+              "height": 1351,
+              "alt": "pawple 9"
+            }
+          ]
+        }
+      ],
+      "featured": true,
+      "homeOrder": 1,
+      "children": [],
+      "isCollection": false
+    },
+    {
       "slug": "wisetable",
       "title": "WISETABLE",
       "section": "Commercial Work",
@@ -3497,11 +3685,199 @@
       "isCollection": true
     },
     {
+      "slug": "yonbek-mochi",
+      "title": "YONBEK MOCHI",
+      "section": "Commercial Work",
+      "sectionOrder": 2,
+      "projectOrder": 4,
+      "category": "food",
+      "summary": "",
+      "year": "2026",
+      "role": "photography 100 styling 100 editing",
+      "roles": [
+        {
+          "name": "photography 100 styling 100 editing",
+          "contribution": 100
+        }
+      ],
+      "contribution": 0,
+      "client": "duedance",
+      "cover": {
+        "src": "/media/portfolio/yonbek-mochi/01.webp",
+        "width": 3200,
+        "height": 2070,
+        "alt": "YONBEK MOCHI 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/yonbek-mochi/01.webp",
+          "width": 3200,
+          "height": 2070,
+          "alt": "YONBEK MOCHI 1"
+        },
+        {
+          "src": "/media/portfolio/yonbek-mochi/02.webp",
+          "width": 3200,
+          "height": 3900,
+          "alt": "YONBEK MOCHI 2"
+        },
+        {
+          "src": "/media/portfolio/yonbek-mochi/03.webp",
+          "width": 3200,
+          "height": 3684,
+          "alt": "YONBEK MOCHI 3"
+        },
+        {
+          "src": "/media/portfolio/yonbek-mochi/04.webp",
+          "width": 3200,
+          "height": 2225,
+          "alt": "YONBEK MOCHI 4"
+        },
+        {
+          "src": "/media/portfolio/yonbek-mochi/05.webp",
+          "width": 3200,
+          "height": 2445,
+          "alt": "YONBEK MOCHI 5"
+        },
+        {
+          "src": "/media/portfolio/yonbek-mochi/06.webp",
+          "width": 3200,
+          "height": 2225,
+          "alt": "YONBEK MOCHI 6"
+        },
+        {
+          "src": "/media/portfolio/yonbek-mochi/07.webp",
+          "width": 3200,
+          "height": 2001,
+          "alt": "YONBEK MOCHI 7"
+        },
+        {
+          "src": "/media/portfolio/yonbek-mochi/08.webp",
+          "width": 3200,
+          "height": 2485,
+          "alt": "YONBEK MOCHI 8"
+        },
+        {
+          "src": "/media/portfolio/yonbek-mochi/09.webp",
+          "width": 3200,
+          "height": 2134,
+          "alt": "YONBEK MOCHI 9"
+        }
+      ],
+      "wallImages": [],
+      "wallInsertAfter": 0,
+      "galleryBlocks": [
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/01.webp",
+              "width": 3200,
+              "height": 2070,
+              "alt": "YONBEK MOCHI 1"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/02.webp",
+              "width": 3200,
+              "height": 3900,
+              "alt": "YONBEK MOCHI 2"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/03.webp",
+              "width": 3200,
+              "height": 3684,
+              "alt": "YONBEK MOCHI 3"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/04.webp",
+              "width": 3200,
+              "height": 2225,
+              "alt": "YONBEK MOCHI 4"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/05.webp",
+              "width": 3200,
+              "height": 2445,
+              "alt": "YONBEK MOCHI 5"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/06.webp",
+              "width": 3200,
+              "height": 2225,
+              "alt": "YONBEK MOCHI 6"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/07.webp",
+              "width": 3200,
+              "height": 2001,
+              "alt": "YONBEK MOCHI 7"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/08.webp",
+              "width": 3200,
+              "height": 2485,
+              "alt": "YONBEK MOCHI 8"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "images": [
+            {
+              "src": "/media/portfolio/yonbek-mochi/09.webp",
+              "width": 3200,
+              "height": 2134,
+              "alt": "YONBEK MOCHI 9"
+            }
+          ]
+        }
+      ],
+      "featured": true,
+      "homeOrder": 4,
+      "children": [],
+      "isCollection": false
+    },
+    {
       "slug": "food",
       "title": "FOOD",
       "section": "Commercial Work",
       "sectionOrder": 2,
-      "projectOrder": 4,
+      "projectOrder": 10,
       "category": "food",
       "summary": "",
       "year": "2023-2026",
@@ -3594,8 +3970,8 @@
           ]
         }
       ],
-      "featured": true,
-      "homeOrder": 4,
+      "featured": false,
+      "homeOrder": null,
       "children": [],
       "isCollection": false
     },
