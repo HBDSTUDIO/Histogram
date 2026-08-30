@@ -1,6 +1,7 @@
 import content from "@/data/portfolio.json";
 
 export type PortfolioImage = { src: string; width: number; height: number; alt: string };
+export type GalleryBlock = { type: "image" | "wall"; images: PortfolioImage[] };
 
 export type PortfolioFloat = PortfolioImage;
 export type Project = {
@@ -19,6 +20,7 @@ export type Project = {
   images: PortfolioImage[];
   wallImages: PortfolioImage[];
   wallInsertAfter: number;
+  galleryBlocks?: GalleryBlock[];
   children?: Project[];
   isCollection?: boolean;
   featured: boolean;

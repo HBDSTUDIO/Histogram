@@ -108,7 +108,7 @@ async function main() {
   for (const [index, imageName] of floatFiles.slice(0, 4).entries()) {
     const outputName = `${String(index + 1).padStart(2, "0")}.webp`;
     const outputPath = path.join(floatOutputRoot, outputName);
-    await sharp(path.join(floatRoot, imageName)).rotate().resize({ width: 3200, withoutEnlargement: true }).webp({ quality: 95, effort: 5 }).toFile(outputPath);
+    await sharp(path.join(floatRoot, imageName)).rotate().resize({ width: 3200, withoutEnlargement: true }).webp({ quality: 90, effort: 5 }).toFile(outputPath);
     const imageMeta = await sharp(outputPath).metadata();
     floatImages.push({ src: `/media/float/${outputName}`, width: imageMeta.width ?? 1600, height: imageMeta.height ?? 1200, alt: `Park Hojun image ${index + 1}` });
   }
@@ -139,19 +139,25 @@ async function main() {
       await fs.mkdir(projectOutput, { recursive: true });
       const images = [];
       const wallImages = [];
+      const galleryBlocks = [];
       let normalCountBeforeWall = null;
       for (const [index, imageName] of sourceImages.entries()) {
         const outputName = `${String(index + 1).padStart(2, "0")}.webp`;
         const outputPath = path.join(projectOutput, outputName);
-        await sharp(path.join(projectRootPath, imageName)).rotate().resize({ width: 3200, withoutEnlargement: true }).webp({ quality: 95, effort: 5 }).toFile(outputPath);
+        await sharp(path.join(projectRootPath, imageName)).rotate().resize({ width: 3200, withoutEnlargement: true }).webp({ quality: 90, effort: 5 }).toFile(outputPath);
         const imageMeta = await sharp(outputPath).metadata();
         const image = { src: `/media/portfolio/${slug}/${outputName}`, width: imageMeta.width ?? 1600, height: imageMeta.height ?? 1200, alt: field(meta, `이미지${index + 1}설명`, `image${index + 1}alt`) || `${title} ${index + 1}` };
         if (imageOrder(imageName).isWall) {
           if (normalCountBeforeWall === null) normalCountBeforeWall = images.length;
           wallImages.push(image);
-        } else images.push(image);
+          const lastBlock = galleryBlocks.at(-1);
+          if (lastBlock?.type === "wall") lastBlock.images.push(image);
+          else galleryBlocks.push({ type: "wall", images: [image] });
+        } else {
+          images.push(image);
+          galleryBlocks.push({ type: "image", images: [image] });
+        }
       }
-      wallImages.sort((a, b) => (b.width / b.height) - (a.width / a.height));
       const cover = images[0] ?? wallImages[0] ?? children[0]?.cover;
       const category = field(meta, "카테고리", "category") || projectParsed.title;
       sectionCategories.add(category);
@@ -160,7 +166,7 @@ async function main() {
         slug, title, section: sectionParsed.title, sectionOrder: sectionParsed.order, projectOrder: projectParsed.order,
         category, summary: field(meta, "설명", "description", "summary"), year: field(meta, "연도", "year"), role: field(meta, "역할", "role"),
         contribution: numberField(field(meta, "기여도", "contribution"), 100), client: field(meta, "클라이언트", "client"), cover,
-        images, wallImages, wallInsertAfter: normalCountBeforeWall ?? 0, featured: homeOrder !== null, homeOrder,
+        images, wallImages, wallInsertAfter: normalCountBeforeWall ?? 0, galleryBlocks, featured: homeOrder !== null, homeOrder,
         children, isCollection: children.length > 0,
       };
     }
