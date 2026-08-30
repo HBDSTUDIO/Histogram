@@ -106,3 +106,60 @@ a { color: inherit; text-decoration: none; }
   .project-gallery { gap: 12px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+
+/* Portfolio refresh: single project index, shared chrome, and optional photo walls. */
+.brand-link, .nav-heading, .menu-toggle { font-weight: 500; }
+.hero h1, .hero h1 span, .index-heading h2, .site-footer h2, .project-intro h1 { font-weight: 500; }
+.floating-card { pointer-events: none; transition: none; }
+.floating-card:hover, .floating-card:focus-visible { transform: none !important; }
+.home-index { padding: 70px 6vw 110px; border-top: 1px solid var(--hairline); }
+.home-index-heading { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 28px; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.home-index-heading p { margin: 0; }
+.home-index-heading .eyebrow { margin: 0; }
+.home-index .project-index { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; }
+.home-index .index-card { position: relative; overflow: hidden; background: #eae9e4; }
+.home-index .index-image-wrap { aspect-ratio: 1; }
+.home-index .index-image { object-fit: cover; transition: none; }
+.home-index .index-card-title { position: absolute; inset: auto 14px 13px; z-index: 2; color: white; font-size: 15px; opacity: 0; transform: translateY(5px); transition: opacity .2s ease, transform .2s ease; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
+.home-index .index-card::after { content: ""; position: absolute; inset: 48% 0 0; background: linear-gradient(transparent, rgba(0,0,0,.45)); opacity: 0; transition: opacity .2s ease; }
+.home-index .index-card:hover .index-card-title, .home-index .index-card:focus-visible .index-card-title, .home-index .index-card:hover::after, .home-index .index-card:focus-visible::after { opacity: 1; transform: translateY(0); }
+.home-index .index-card:focus-visible { outline: 2px solid var(--red); outline-offset: -2px; }
+.home-footer, .contact-footer { display: flex; justify-content: space-between; padding: 34px 6vw 42px; border-top: 1px solid var(--hairline); font-size: 13px; }
+.home-footer a:hover, .contact-footer a:hover { color: var(--red); }
+.project-page .page-content, .contact-page .page-content { margin-left: 270px; }
+.project-page { padding: 34px 5vw 32px; }
+.project-page .project-header { min-height: 20px; }
+.project-gallery { gap: 20px; }
+.project-gallery figure { margin: 0; }
+.photo-wall { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-auto-rows: minmax(120px, 10vw); gap: 10px; }
+.photo-wall figure { min-height: 0; overflow: hidden; }
+.photo-wall figure img { width: 100%; height: 100%; object-fit: cover; }
+.photo-wall figure:nth-child(6n + 1) { grid-column: span 4; grid-row: span 2; }
+.photo-wall figure:nth-child(6n + 2), .photo-wall figure:nth-child(6n + 3) { grid-column: span 4; grid-row: span 1; }
+.photo-wall figure:nth-child(6n + 4), .photo-wall figure:nth-child(6n + 5), .photo-wall figure:nth-child(6n + 6) { grid-column: span 2; grid-row: span 2; }
+.contact-page { min-height: 100vh; padding: 34px 5vw 32px; }
+.contact-inner { min-height: calc(100vh - 110px); display: grid; align-content: center; padding: 8vh 8vw 12vh; }
+.contact-inner h1 { margin: 0; font-size: clamp(58px, 10vw, 160px); font-weight: 500; letter-spacing: -.08em; line-height: .86; }
+.contact-details { display: grid; gap: 8px; margin-top: 70px; font-size: clamp(18px, 2vw, 28px); }
+.contact-details a:hover { color: var(--red); }
+@media (max-width: 900px) {
+  .home-index, .home-footer, .contact-footer { padding-left: 34px; padding-right: 34px; }
+  .home-index .project-index { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .photo-wall { grid-auto-rows: minmax(100px, 16vw); }
+}
+@media (max-width: 700px) {
+  .home-index { padding: 58px 20px 76px; }
+  .home-index .project-index { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-index .index-card-title { inset: auto 9px 8px; font-size: 12px; opacity: 1; transform: none; }
+  .home-index .index-card::after { opacity: 1; }
+  .home-footer, .contact-footer { padding: 26px 20px 30px; }
+  .project-page, .contact-page { padding: 22px 20px 28px; }
+  .project-page .page-content, .contact-page .page-content { margin-left: 0; }
+  .project-gallery { gap: 12px; }
+  .photo-wall { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 38vw; gap: 6px; }
+  .photo-wall figure:nth-child(n) { grid-column: span 1; grid-row: span 1; }
+  .photo-wall figure:nth-child(3n + 1) { grid-column: span 2; }
+  .contact-inner { min-height: calc(100vh - 90px); padding: 8vh 0 12vh; }
+  .contact-inner h1 { font-size: clamp(58px, 17vw, 92px); }
+  .contact-details { margin-top: 50px; font-size: 18px; }
+}

@@ -2,6 +2,7 @@ import content from "@/data/portfolio.json";
 
 export type PortfolioImage = { src: string; width: number; height: number; alt: string };
 
+export type PortfolioFloat = PortfolioImage;
 export type Project = {
   slug: string;
   title: string;
@@ -16,6 +17,8 @@ export type Project = {
   client: string;
   cover: PortfolioImage;
   images: PortfolioImage[];
+  wallImages: PortfolioImage[];
+  wallInsertAfter: number;
   featured: boolean;
   homeOrder: number | null;
 };
@@ -25,10 +28,12 @@ export type SiteSettings = { name: string; label: string; years: string; phone: 
 
 const portfolio = content as {
   siteSettings: SiteSettings;
+  floatImages: PortfolioFloat[];
   sections: Section[];
   projects: Project[];
 };
 
 export const siteSettings = portfolio.siteSettings;
+export const floatImages = portfolio.floatImages ?? [];
 export const sections = portfolio.sections;
 export const projects = portfolio.projects;

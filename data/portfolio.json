@@ -3,11 +3,12 @@
     "name": "Park Hojun",
     "label": "Portfolio",
     "years": "2020 to 2026",
-    "phone": "+82 10 0000 0000",
-    "email": "hello@parkhojun.com",
-    "instagram": "@parkhojun",
-    "instagramUrl": "https://instagram.com/"
+    "phone": "+82 10 3530 8328",
+    "email": "hbdphotostudio@gmail.com",
+    "instagram": "@rmsidqkrghwns",
+    "instagramUrl": "https://instagram.com/rmsidqkrghwns"
   },
+  "floatImages": [],
   "sections": [
     {
       "title": "Personal Work",
@@ -61,6 +62,8 @@
           "alt": "Quiet Hours 2"
         }
       ],
+      "wallImages": [],
+      "wallInsertAfter": 0,
       "featured": true,
       "homeOrder": 1
     },
@@ -78,102 +81,104 @@
       "client": "",
       "cover": {
         "src": "/media/portfolio/danang-notes/01.webp",
-        "width": 2560,
-        "height": 3276,
+        "width": 3200,
+        "height": 4095,
         "alt": "Danang Notes 1"
       },
       "images": [
         {
           "src": "/media/portfolio/danang-notes/01.webp",
-          "width": 2560,
-          "height": 3276,
+          "width": 3200,
+          "height": 4095,
           "alt": "Danang Notes 1"
         },
         {
           "src": "/media/portfolio/danang-notes/02.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "Danang Notes 2"
         },
         {
           "src": "/media/portfolio/danang-notes/03.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "Danang Notes 3"
         },
         {
           "src": "/media/portfolio/danang-notes/04.webp",
-          "width": 2560,
-          "height": 1471,
+          "width": 3200,
+          "height": 1839,
           "alt": "Danang Notes 4"
         },
         {
           "src": "/media/portfolio/danang-notes/05.webp",
-          "width": 2560,
-          "height": 3454,
+          "width": 3200,
+          "height": 4317,
           "alt": "Danang Notes 5"
         },
         {
           "src": "/media/portfolio/danang-notes/06.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3043,
+          "height": 4562,
           "alt": "Danang Notes 6"
         },
         {
           "src": "/media/portfolio/danang-notes/07.webp",
-          "width": 2560,
-          "height": 1682,
+          "width": 3200,
+          "height": 2103,
           "alt": "Danang Notes 7"
         },
         {
           "src": "/media/portfolio/danang-notes/08.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "Danang Notes 8"
         },
         {
           "src": "/media/portfolio/danang-notes/09.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "Danang Notes 9"
         },
         {
           "src": "/media/portfolio/danang-notes/10.webp",
-          "width": 2560,
-          "height": 3281,
+          "width": 3200,
+          "height": 4102,
           "alt": "Danang Notes 10"
         },
         {
           "src": "/media/portfolio/danang-notes/11.webp",
-          "width": 2560,
-          "height": 1708,
+          "width": 3200,
+          "height": 2135,
           "alt": "Danang Notes 11"
         },
         {
           "src": "/media/portfolio/danang-notes/12.webp",
-          "width": 2560,
-          "height": 3001,
+          "width": 3200,
+          "height": 3751,
           "alt": "Danang Notes 12"
         },
         {
           "src": "/media/portfolio/danang-notes/13.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "Danang Notes 13"
         },
         {
           "src": "/media/portfolio/danang-notes/14.webp",
-          "width": 2560,
-          "height": 3339,
+          "width": 3200,
+          "height": 4174,
           "alt": "Danang Notes 14"
         },
         {
           "src": "/media/portfolio/danang-notes/15.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "Danang Notes 15"
         }
       ],
+      "wallImages": [],
+      "wallInsertAfter": 0,
       "featured": true,
       "homeOrder": 2
     },
@@ -365,6 +370,8 @@
           "alt": "Wisetable 28"
         }
       ],
+      "wallImages": [],
+      "wallInsertAfter": 0,
       "featured": true,
       "homeOrder": 4
     },
@@ -382,102 +389,104 @@
       "client": "ROADIC",
       "cover": {
         "src": "/media/portfolio/roadic/01.webp",
-        "width": 2560,
-        "height": 3276,
+        "width": 3200,
+        "height": 4095,
         "alt": "ROADIC 1"
       },
       "images": [
         {
           "src": "/media/portfolio/roadic/01.webp",
-          "width": 2560,
-          "height": 3276,
+          "width": 3200,
+          "height": 4095,
           "alt": "ROADIC 1"
         },
         {
           "src": "/media/portfolio/roadic/02.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "ROADIC 2"
         },
         {
           "src": "/media/portfolio/roadic/03.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "ROADIC 3"
         },
         {
           "src": "/media/portfolio/roadic/04.webp",
-          "width": 2560,
-          "height": 1471,
+          "width": 3200,
+          "height": 1839,
           "alt": "ROADIC 4"
         },
         {
           "src": "/media/portfolio/roadic/05.webp",
-          "width": 2560,
-          "height": 3454,
+          "width": 3200,
+          "height": 4317,
           "alt": "ROADIC 5"
         },
         {
           "src": "/media/portfolio/roadic/06.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3043,
+          "height": 4562,
           "alt": "ROADIC 6"
         },
         {
           "src": "/media/portfolio/roadic/07.webp",
-          "width": 2560,
-          "height": 1682,
+          "width": 3200,
+          "height": 2103,
           "alt": "ROADIC 7"
         },
         {
           "src": "/media/portfolio/roadic/08.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "ROADIC 8"
         },
         {
           "src": "/media/portfolio/roadic/09.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "ROADIC 9"
         },
         {
           "src": "/media/portfolio/roadic/10.webp",
-          "width": 2560,
-          "height": 3281,
+          "width": 3200,
+          "height": 4102,
           "alt": "ROADIC 10"
         },
         {
           "src": "/media/portfolio/roadic/11.webp",
-          "width": 2560,
-          "height": 1708,
+          "width": 3200,
+          "height": 2135,
           "alt": "ROADIC 11"
         },
         {
           "src": "/media/portfolio/roadic/12.webp",
-          "width": 2560,
-          "height": 3001,
+          "width": 3200,
+          "height": 3751,
           "alt": "ROADIC 12"
         },
         {
           "src": "/media/portfolio/roadic/13.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "ROADIC 13"
         },
         {
           "src": "/media/portfolio/roadic/14.webp",
-          "width": 2560,
-          "height": 3339,
+          "width": 3200,
+          "height": 4174,
           "alt": "ROADIC 14"
         },
         {
           "src": "/media/portfolio/roadic/15.webp",
-          "width": 2560,
-          "height": 3838,
+          "width": 3200,
+          "height": 4798,
           "alt": "ROADIC 15"
         }
       ],
+      "wallImages": [],
+      "wallInsertAfter": 0,
       "featured": false,
       "homeOrder": null
     },
@@ -513,6 +522,8 @@
           "alt": "RUFFNTUFF 2"
         }
       ],
+      "wallImages": [],
+      "wallInsertAfter": 0,
       "featured": true,
       "homeOrder": 3
     },
@@ -554,6 +565,8 @@
           "alt": "FOOD 3"
         }
       ],
+      "wallImages": [],
+      "wallInsertAfter": 0,
       "featured": false,
       "homeOrder": null
     }

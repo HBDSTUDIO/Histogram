@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "@fontsource/jost/400.css";
 import "@fontsource/jost/500.css";
-import "@fontsource/jost/600.css";
 import "./globals.css";
 
 const metadataOrigin = process.env.VERCEL_PROJECT_PRODUCTION_URL
