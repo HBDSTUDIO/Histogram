@@ -101,7 +101,8 @@ async function main() {
     mainOrder.set(comparable(parsed.title), parsed.order);
   }
 
-  const sectionFolders = (await directories(sourceRoot)).filter((name) => orderedName(name).title.toLowerCase() !== "main");
+  const hiddenSectionNames = new Set(["main", "float"]);
+  const sectionFolders = (await directories(sourceRoot)).filter((name) => !hiddenSectionNames.has(orderedName(name).title.toLowerCase()));
   const projects = [];
   const sections = [];
   const usedSlugs = new Set();
