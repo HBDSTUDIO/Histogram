@@ -155,6 +155,7 @@ async function main() {
           images.push(image);
         }
       }
+      wallImages.sort((a, b) => (b.width / b.height) - (a.width / a.height));
       const cover = images[0] ?? wallImages[0];
 
       const category = field(meta, "카테고리", "category") || projectParsed.title;
