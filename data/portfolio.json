@@ -21,9 +21,10 @@
       "title": "Commercial Work",
       "order": 2,
       "categories": [
-        "Fashion",
         "Food",
-        "Lifestyle"
+        "Lifestyle",
+        "Fashion",
+        "FOOD"
       ]
     }
   ],
@@ -77,33 +78,415 @@
       "client": "",
       "cover": {
         "src": "/media/portfolio/danang-notes/01.webp",
-        "width": 2400,
-        "height": 1350,
+        "width": 2560,
+        "height": 3276,
         "alt": "Danang Notes 1"
       },
       "images": [
         {
           "src": "/media/portfolio/danang-notes/01.webp",
-          "width": 2400,
-          "height": 1350,
+          "width": 2560,
+          "height": 3276,
           "alt": "Danang Notes 1"
         },
         {
           "src": "/media/portfolio/danang-notes/02.webp",
-          "width": 2400,
-          "height": 1350,
+          "width": 2560,
+          "height": 3838,
           "alt": "Danang Notes 2"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/03.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "Danang Notes 3"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/04.webp",
+          "width": 2560,
+          "height": 1471,
+          "alt": "Danang Notes 4"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/05.webp",
+          "width": 2560,
+          "height": 3454,
+          "alt": "Danang Notes 5"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/06.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "Danang Notes 6"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/07.webp",
+          "width": 2560,
+          "height": 1682,
+          "alt": "Danang Notes 7"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/08.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "Danang Notes 8"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/09.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "Danang Notes 9"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/10.webp",
+          "width": 2560,
+          "height": 3281,
+          "alt": "Danang Notes 10"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/11.webp",
+          "width": 2560,
+          "height": 1708,
+          "alt": "Danang Notes 11"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/12.webp",
+          "width": 2560,
+          "height": 3001,
+          "alt": "Danang Notes 12"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/13.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "Danang Notes 13"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/14.webp",
+          "width": 2560,
+          "height": 3339,
+          "alt": "Danang Notes 14"
+        },
+        {
+          "src": "/media/portfolio/danang-notes/15.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "Danang Notes 15"
         }
       ],
       "featured": true,
       "homeOrder": 2
     },
     {
+      "slug": "wisetable",
+      "title": "Wisetable",
+      "section": "Commercial Work",
+      "sectionOrder": 2,
+      "projectOrder": 1,
+      "category": "Food",
+      "summary": "제품의 재료감과 사용 장면을 담은 콘텐츠 시리즈.",
+      "year": "2024",
+      "role": "Photography",
+      "contribution": 60,
+      "client": "Wisetable",
+      "cover": {
+        "src": "/media/portfolio/wisetable/01.webp",
+        "width": 2160,
+        "height": 1440,
+        "alt": "Wisetable 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/wisetable/01.webp",
+          "width": 2160,
+          "height": 1440,
+          "alt": "Wisetable 1"
+        },
+        {
+          "src": "/media/portfolio/wisetable/02.webp",
+          "width": 960,
+          "height": 1440,
+          "alt": "Wisetable 2"
+        },
+        {
+          "src": "/media/portfolio/wisetable/03.webp",
+          "width": 1049,
+          "height": 1440,
+          "alt": "Wisetable 3"
+        },
+        {
+          "src": "/media/portfolio/wisetable/04.webp",
+          "width": 2219,
+          "height": 1440,
+          "alt": "Wisetable 4"
+        },
+        {
+          "src": "/media/portfolio/wisetable/05.webp",
+          "width": 1102,
+          "height": 1440,
+          "alt": "Wisetable 5"
+        },
+        {
+          "src": "/media/portfolio/wisetable/06.webp",
+          "width": 2160,
+          "height": 1440,
+          "alt": "Wisetable 6"
+        },
+        {
+          "src": "/media/portfolio/wisetable/07.webp",
+          "width": 1200,
+          "height": 1440,
+          "alt": "Wisetable 7"
+        },
+        {
+          "src": "/media/portfolio/wisetable/08.webp",
+          "width": 1080,
+          "height": 1440,
+          "alt": "Wisetable 8"
+        },
+        {
+          "src": "/media/portfolio/wisetable/09.webp",
+          "width": 1200,
+          "height": 1440,
+          "alt": "Wisetable 9"
+        },
+        {
+          "src": "/media/portfolio/wisetable/10.webp",
+          "width": 1200,
+          "height": 1440,
+          "alt": "Wisetable 10"
+        },
+        {
+          "src": "/media/portfolio/wisetable/11.webp",
+          "width": 1152,
+          "height": 1440,
+          "alt": "Wisetable 11"
+        },
+        {
+          "src": "/media/portfolio/wisetable/12.webp",
+          "width": 1152,
+          "height": 1440,
+          "alt": "Wisetable 12"
+        },
+        {
+          "src": "/media/portfolio/wisetable/13.webp",
+          "width": 961,
+          "height": 1440,
+          "alt": "Wisetable 13"
+        },
+        {
+          "src": "/media/portfolio/wisetable/14.webp",
+          "width": 1101,
+          "height": 1440,
+          "alt": "Wisetable 14"
+        },
+        {
+          "src": "/media/portfolio/wisetable/15.webp",
+          "width": 2160,
+          "height": 1440,
+          "alt": "Wisetable 15"
+        },
+        {
+          "src": "/media/portfolio/wisetable/16.webp",
+          "width": 2160,
+          "height": 1440,
+          "alt": "Wisetable 16"
+        },
+        {
+          "src": "/media/portfolio/wisetable/17.webp",
+          "width": 1083,
+          "height": 1440,
+          "alt": "Wisetable 17"
+        },
+        {
+          "src": "/media/portfolio/wisetable/18.webp",
+          "width": 1083,
+          "height": 1440,
+          "alt": "Wisetable 18"
+        },
+        {
+          "src": "/media/portfolio/wisetable/19.webp",
+          "width": 1083,
+          "height": 1440,
+          "alt": "Wisetable 19"
+        },
+        {
+          "src": "/media/portfolio/wisetable/20.webp",
+          "width": 1287,
+          "height": 1440,
+          "alt": "Wisetable 20"
+        },
+        {
+          "src": "/media/portfolio/wisetable/21.webp",
+          "width": 1915,
+          "height": 1440,
+          "alt": "Wisetable 21"
+        },
+        {
+          "src": "/media/portfolio/wisetable/22.webp",
+          "width": 1083,
+          "height": 1440,
+          "alt": "Wisetable 22"
+        },
+        {
+          "src": "/media/portfolio/wisetable/23.webp",
+          "width": 1083,
+          "height": 1440,
+          "alt": "Wisetable 23"
+        },
+        {
+          "src": "/media/portfolio/wisetable/24.webp",
+          "width": 1082,
+          "height": 1440,
+          "alt": "Wisetable 24"
+        },
+        {
+          "src": "/media/portfolio/wisetable/25.webp",
+          "width": 2160,
+          "height": 1440,
+          "alt": "Wisetable 25"
+        },
+        {
+          "src": "/media/portfolio/wisetable/26.webp",
+          "width": 2160,
+          "height": 1440,
+          "alt": "Wisetable 26"
+        },
+        {
+          "src": "/media/portfolio/wisetable/27.webp",
+          "width": 2160,
+          "height": 1440,
+          "alt": "Wisetable 27"
+        },
+        {
+          "src": "/media/portfolio/wisetable/28.webp",
+          "width": 2385,
+          "height": 1440,
+          "alt": "Wisetable 28"
+        }
+      ],
+      "featured": true,
+      "homeOrder": 4
+    },
+    {
+      "slug": "roadic",
+      "title": "ROADIC",
+      "section": "Commercial Work",
+      "sectionOrder": 2,
+      "projectOrder": 2,
+      "category": "Lifestyle",
+      "summary": "움직임이 있는 라이프스타일 제품을 차분한 프레임으로 기록.",
+      "year": "2024",
+      "role": "Photography / Retouching",
+      "contribution": 80,
+      "client": "ROADIC",
+      "cover": {
+        "src": "/media/portfolio/roadic/01.webp",
+        "width": 2560,
+        "height": 3276,
+        "alt": "ROADIC 1"
+      },
+      "images": [
+        {
+          "src": "/media/portfolio/roadic/01.webp",
+          "width": 2560,
+          "height": 3276,
+          "alt": "ROADIC 1"
+        },
+        {
+          "src": "/media/portfolio/roadic/02.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "ROADIC 2"
+        },
+        {
+          "src": "/media/portfolio/roadic/03.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "ROADIC 3"
+        },
+        {
+          "src": "/media/portfolio/roadic/04.webp",
+          "width": 2560,
+          "height": 1471,
+          "alt": "ROADIC 4"
+        },
+        {
+          "src": "/media/portfolio/roadic/05.webp",
+          "width": 2560,
+          "height": 3454,
+          "alt": "ROADIC 5"
+        },
+        {
+          "src": "/media/portfolio/roadic/06.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "ROADIC 6"
+        },
+        {
+          "src": "/media/portfolio/roadic/07.webp",
+          "width": 2560,
+          "height": 1682,
+          "alt": "ROADIC 7"
+        },
+        {
+          "src": "/media/portfolio/roadic/08.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "ROADIC 8"
+        },
+        {
+          "src": "/media/portfolio/roadic/09.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "ROADIC 9"
+        },
+        {
+          "src": "/media/portfolio/roadic/10.webp",
+          "width": 2560,
+          "height": 3281,
+          "alt": "ROADIC 10"
+        },
+        {
+          "src": "/media/portfolio/roadic/11.webp",
+          "width": 2560,
+          "height": 1708,
+          "alt": "ROADIC 11"
+        },
+        {
+          "src": "/media/portfolio/roadic/12.webp",
+          "width": 2560,
+          "height": 3001,
+          "alt": "ROADIC 12"
+        },
+        {
+          "src": "/media/portfolio/roadic/13.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "ROADIC 13"
+        },
+        {
+          "src": "/media/portfolio/roadic/14.webp",
+          "width": 2560,
+          "height": 3339,
+          "alt": "ROADIC 14"
+        },
+        {
+          "src": "/media/portfolio/roadic/15.webp",
+          "width": 2560,
+          "height": 3838,
+          "alt": "ROADIC 15"
+        }
+      ],
+      "featured": false,
+      "homeOrder": null
+    },
+    {
       "slug": "ruffntuff",
       "title": "RUFFNTUFF",
       "section": "Commercial Work",
       "sectionOrder": 2,
-      "projectOrder": 1,
+      "projectOrder": 3,
       "category": "Fashion",
       "summary": "브랜드의 질감과 움직임을 이미지 언어로 정리한 캠페인.",
       "year": "2025",
@@ -134,70 +517,41 @@
       "homeOrder": 3
     },
     {
-      "slug": "wisetable",
-      "title": "Wisetable",
+      "slug": "food",
+      "title": "FOOD",
       "section": "Commercial Work",
       "sectionOrder": 2,
-      "projectOrder": 2,
-      "category": "Food",
-      "summary": "제품의 재료감과 사용 장면을 담은 콘텐츠 시리즈.",
-      "year": "2024",
-      "role": "Photography",
-      "contribution": 60,
-      "client": "Wisetable",
+      "projectOrder": 4,
+      "category": "FOOD",
+      "summary": "",
+      "year": "",
+      "role": "",
+      "contribution": 0,
+      "client": "",
       "cover": {
-        "src": "/media/portfolio/wisetable/01.webp",
-        "width": 2400,
-        "height": 1350,
-        "alt": "Wisetable 1"
+        "src": "/media/portfolio/food/01.webp",
+        "width": 1042,
+        "height": 1440,
+        "alt": "FOOD 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/wisetable/01.webp",
-          "width": 2400,
-          "height": 1350,
-          "alt": "Wisetable 1"
+          "src": "/media/portfolio/food/01.webp",
+          "width": 1042,
+          "height": 1440,
+          "alt": "FOOD 1"
         },
         {
-          "src": "/media/portfolio/wisetable/02.webp",
-          "width": 2400,
-          "height": 1350,
-          "alt": "Wisetable 2"
-        }
-      ],
-      "featured": true,
-      "homeOrder": 4
-    },
-    {
-      "slug": "roadic",
-      "title": "ROADIC",
-      "section": "Commercial Work",
-      "sectionOrder": 2,
-      "projectOrder": 3,
-      "category": "Lifestyle",
-      "summary": "움직임이 있는 라이프스타일 제품을 차분한 프레임으로 기록.",
-      "year": "2024",
-      "role": "Photography / Retouching",
-      "contribution": 80,
-      "client": "ROADIC",
-      "cover": {
-        "src": "/media/portfolio/roadic/01.webp",
-        "width": 2400,
-        "height": 1350,
-        "alt": "ROADIC 1"
-      },
-      "images": [
-        {
-          "src": "/media/portfolio/roadic/01.webp",
-          "width": 2400,
-          "height": 1350,
-          "alt": "ROADIC 1"
+          "src": "/media/portfolio/food/02.webp",
+          "width": 961,
+          "height": 1440,
+          "alt": "FOOD 2"
         },
         {
-          "src": "/media/portfolio/roadic/02.webp",
-          "width": 2400,
-          "height": 1350,
-          "alt": "ROADIC 2"
+          "src": "/media/portfolio/food/03.webp",
+          "width": 961,
+          "height": 1440,
+          "alt": "FOOD 3"
         }
       ],
       "featured": false,
