@@ -31,7 +31,7 @@ echo "[2/4] 사이트 오류를 검사합니다."
 npm run build
 
 echo "[3/4] 변경 내용을 Git에 기록합니다."
-git add data/portfolio.json public/media/portfolio
+git add data/portfolio.json public/media/portfolio public/media/float
 git add -u
 
 if git diff --cached --quiet; then
