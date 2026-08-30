@@ -89,16 +89,18 @@ a { color: inherit; text-decoration: none; }
   .mobile-menu-group > a:first-child, .mobile-menu-inner > a:last-child { font-size: 22px; font-weight: 600; letter-spacing: -.03em; }
   .mobile-menu-group a:not(:first-child) { color: var(--muted); font-size: 16px; padding-left: 12px; }
   .page-content { margin-left: 0; }
-  .hero { min-height: 620px; padding: 52px 20px 20px; }
-  .hero h1 { font-size: clamp(66px, 21vw, 118px); }
-  .hero-meta { top: 176px; left: 20px; right: auto; font-size: 13px; gap: 42px; }
-  .hero-contact { min-width: 0; }
-  .histogram-line { inset: 180px -5% auto; width: 110%; height: 330px; }
-  .floating-caption { opacity: 1; transform: none; }
-  .float-one { left: 4%; top: 54%; width: 52vw; }
-  .float-two { left: auto; right: 2%; top: 65%; width: 43vw; }
-  .float-three { right: 8%; top: 40%; width: 45vw; }
-  .float-four { right: -3%; top: 78%; width: 38vw; }
+  .hero { min-height: 850px; padding: 46px 20px 28px; }
+  .hero h1 { font-size: clamp(54px, 17vw, 76px); line-height: .84; letter-spacing: -.07em; }
+  .hero-meta { position: relative; top: auto; left: auto; right: auto; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.35fr); width: 100%; margin-top: 28px; gap: 16px; font-size: 11px; line-height: 1.25; }
+  .hero-contact { min-width: 0; overflow-wrap: anywhere; }
+  .histogram-line { inset: 260px -8% auto; width: 116%; height: 270px; }
+  .floating-projects { inset: 378px 16px auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 10px; }
+  .floating-card { position: relative; inset: auto; width: 100%; transform: none !important; }
+  .floating-caption { display: none; }
+  .float-one { left: auto; top: auto; width: 100%; aspect-ratio: 1.22; margin-top: 34px; }
+  .float-two { left: auto; right: auto; top: auto; width: 100%; aspect-ratio: 1.2; }
+  .float-three { right: auto; top: auto; width: 82%; aspect-ratio: .88; justify-self: end; margin-top: -12px; }
+  .float-four { right: auto; top: auto; width: 84%; aspect-ratio: .9; justify-self: start; margin-top: 12px; }
   .index-section { padding: 78px 20px 80px; }
   .index-heading { gap: 12px; margin-bottom: 28px; }
   .index-heading h2 { font-size: 34px; }
