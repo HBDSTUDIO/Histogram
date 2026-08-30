@@ -22,7 +22,7 @@ a { color: inherit; text-decoration: none; }
 .hero { min-height: 780px; padding: 80px 6vw 20px; position: relative; overflow: hidden; }
 .hero-copy { position: relative; z-index: 3; }
 .eyebrow { margin: 0 0 14px; color: var(--muted); font-size: 12px; letter-spacing: .07em; text-transform: uppercase; }
-.hero h1 { margin: 0; font-size: clamp(74px, 11vw, 176px); font-weight: 500; letter-spacing: -.075em; line-height: .82; }
+.hero h1 { margin: 0; font-size: clamp(74px, 11vw, 176px); font-weight: 300; letter-spacing: -.075em; line-height: .82; }
 .hero h1 span { margin-left: .02em; font-weight: 600; }
 .hero-meta { position: absolute; top: 58px; right: 7vw; z-index: 3; display: flex; gap: clamp(28px, 5vw, 90px); font-size: 16px; line-height: 1.1; }
 .hero-meta p { margin: 0; }
@@ -37,10 +37,11 @@ a { color: inherit; text-decoration: none; }
 .floating-caption { position: absolute; left: 0; top: calc(100% + 10px); display: grid; gap: 2px; font-size: 12px; opacity: 0; transform: translateY(4px); transition: opacity .25s ease, transform .25s ease; }
 .floating-card:hover .floating-caption, .floating-card:focus-visible .floating-caption { opacity: 1; transform: translateY(0); }
 .floating-caption small { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .06em; }
-.float-one { left: 10%; top: 58%; width: min(280px, 23vw); aspect-ratio: 1.22; transform: rotate(-3deg); }
-.float-two { left: 42%; top: 51%; width: min(235px, 20vw); aspect-ratio: 1.2; transform: rotate(2deg); }
-.float-three { right: 21%; top: 39%; width: min(280px, 24vw); aspect-ratio: .88; transform: rotate(-2deg); }
-.float-four { right: -1%; top: 65%; width: min(220px, 19vw); aspect-ratio: .9; transform: rotate(3deg); }
+.float-one { left: 7%; top: 60%; width: min(250px, 20vw); aspect-ratio: 1.22; transform: rotate(-3deg); }
+.float-two { left: 29%; top: 52%; width: min(220px, 18vw); aspect-ratio: 1.2; transform: rotate(2deg); }
+.float-three { right: 37%; top: 40%; width: min(240px, 20vw); aspect-ratio: .88; transform: rotate(-2deg); }
+.float-four { right: 17%; top: 62%; width: min(200px, 16vw); aspect-ratio: .9; transform: rotate(3deg); }
+.float-five { right: -1%; top: 46%; width: min(220px, 18vw); aspect-ratio: 1; transform: rotate(-1deg); }
 .index-section { padding: 100px 6vw 120px; border-top: 1px solid var(--hairline); }
 .index-heading { display: flex; align-items: baseline; gap: 22px; margin-bottom: 46px; }
 .index-heading .eyebrow { margin: 0; }
@@ -71,6 +72,8 @@ a { color: inherit; text-decoration: none; }
 .project-role-fact dd { display: grid; gap: 6px; }
 .project-role-fact dd span { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; }
 .project-role-fact b, .project-role-fact em { font: inherit; font-style: normal; font-weight: 400; }
+.project-reference-link { text-decoration: underline; text-underline-offset: 3px; }
+.project-reference-link:hover { color: var(--red); }
 .project-gallery { display: grid; gap: 20px; }
 .project-gallery figure { margin: 0; background: #ebeae6; }
 .project-gallery img { display: block; width: 100%; height: auto; }
@@ -89,18 +92,12 @@ a { color: inherit; text-decoration: none; }
   .mobile-menu-group > a:first-child, .mobile-menu-inner > a:last-child { font-size: 22px; font-weight: 600; letter-spacing: -.03em; }
   .mobile-menu-group a:not(:first-child) { color: var(--muted); font-size: 16px; padding-left: 12px; }
   .page-content { margin-left: 0; }
-  .hero { min-height: 850px; padding: 46px 20px 28px; }
+  .hero { min-height: 440px; padding: 46px 20px 28px; overflow: visible; }
   .hero h1 { font-size: clamp(54px, 17vw, 76px); line-height: .84; letter-spacing: -.07em; }
   .hero-meta { position: relative; top: auto; left: auto; right: auto; display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.35fr); width: 100%; margin-top: 28px; gap: 16px; font-size: 11px; line-height: 1.25; }
   .hero-contact { min-width: 0; overflow-wrap: anywhere; }
-  .histogram-line { inset: 260px -8% auto; width: 116%; height: 270px; }
-  .floating-projects { inset: 378px 16px auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 10px; }
-  .floating-card { position: relative; inset: auto; width: 100%; transform: none !important; }
-  .floating-caption { display: none; }
-  .float-one { left: auto; top: auto; width: 100%; aspect-ratio: 1.22; margin-top: 34px; }
-  .float-two { left: auto; right: auto; top: auto; width: 100%; aspect-ratio: 1.2; }
-  .float-three { right: auto; top: auto; width: 82%; aspect-ratio: .88; justify-self: end; margin-top: -12px; }
-  .float-four { right: auto; top: auto; width: 84%; aspect-ratio: .9; justify-self: start; margin-top: 12px; }
+  .histogram-line { inset: 190px -8% auto; width: 116%; height: 270px; }
+  .floating-projects { display: none; }
   .index-section { padding: 78px 20px 80px; }
   .index-heading { gap: 12px; margin-bottom: 28px; }
   .index-heading h2 { font-size: 34px; }
@@ -119,7 +116,8 @@ a { color: inherit; text-decoration: none; }
 
 /* Portfolio refresh: single project index, shared chrome, and optional photo walls. */
 .brand-link, .nav-heading, .menu-toggle { font-weight: 500; }
-.hero h1, .hero h1 span, .index-heading h2, .site-footer h2, .project-intro h1 { font-weight: 500; }
+.hero h1 { font-weight: 300; }
+.index-heading h2, .site-footer h2, .project-intro h1 { font-weight: 500; }
 .floating-card { pointer-events: none; transition: none; }
 .floating-card:hover, .floating-card:focus-visible { transform: none !important; }
 .home-index { padding: 0 6vw 110px; border-top: 0; }
@@ -171,7 +169,7 @@ a { color: inherit; text-decoration: none; }
   .project-page .project-footer { width: 90%; }
 }
 @media (max-width: 700px) {
-  .home-index { padding: 0 20px 76px; }
+  .home-index { position: relative; z-index: 3; margin-top: -92px; padding: 0 20px 76px; }
   .home-index .project-index { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .home-index .index-card-title { inset: auto 9px 8px; font-size: 12px; opacity: 1; transform: none; }
   .home-index .index-card::after { opacity: 1; }

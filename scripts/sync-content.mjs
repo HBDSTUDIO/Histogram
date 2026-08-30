@@ -9,7 +9,7 @@ const sourceRoot = path.join(projectRoot, "portfolio-content");
 const outputRoot = path.join(projectRoot, "public", "media", "portfolio");
 const floatOutputRoot = path.join(projectRoot, "public", "media", "float");
 const dataFile = path.join(projectRoot, "data", "portfolio.json");
-const imageExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff", ".avif"]);
+const imageExtensions = new Set([".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff", ".avif", ".gif"]);
 const collator = new Intl.Collator("ko", { numeric: true, sensitivity: "base" });
 
 function orderedName(name) {
@@ -92,6 +92,26 @@ function roleFields(meta) {
   });
 }
 
+function referenceUrl(meta) {
+  const value = field(meta, "참고 링크", "참고링크", "reference link", "referenceurl", "link");
+  if (!value) return "";
+  return /^https?:\/\//iu.test(value) ? value : `https://${value}`;
+}
+
+async function convertImage(inputPath, outputPath) {
+  const sourceMeta = await sharp(inputPath, { animated: true }).metadata();
+  const animated = (sourceMeta.pages ?? 1) > 1;
+  let pipeline = sharp(inputPath, { animated });
+  if (!animated) pipeline = pipeline.rotate();
+  await pipeline.resize({ width: 3200, withoutEnlargement: true }).webp({ quality: 90, effort: 5 }).toFile(outputPath);
+  const outputMeta = await sharp(outputPath, { animated: true }).metadata();
+  return {
+    width: outputMeta.width ?? 1600,
+    height: outputMeta.pageHeight ?? outputMeta.height ?? 1200,
+    ...(animated ? { animated: true } : {}),
+  };
+}
+
 async function main() {
   if (!(await exists(sourceRoot))) throw new Error("portfolio-content 폴더가 없습니다.");
 
@@ -118,12 +138,11 @@ async function main() {
     .filter((entry) => entry.isFile() && imageExtensions.has(path.extname(entry.name).toLowerCase()))
     .map((entry) => entry.name)
     .sort((a, b) => imageOrder(a).order - imageOrder(b).order || collator.compare(a, b));
-  for (const [index, imageName] of floatFiles.slice(0, 4).entries()) {
+  for (const [index, imageName] of floatFiles.slice(0, 5).entries()) {
     const outputName = `${String(index + 1).padStart(2, "0")}.webp`;
     const outputPath = path.join(floatOutputRoot, outputName);
-    await sharp(path.join(floatRoot, imageName)).rotate().resize({ width: 3200, withoutEnlargement: true }).webp({ quality: 90, effort: 5 }).toFile(outputPath);
-    const imageMeta = await sharp(outputPath).metadata();
-    floatImages.push({ src: `/media/float/${outputName}`, width: imageMeta.width ?? 1600, height: imageMeta.height ?? 1200, alt: `Park Hojun image ${index + 1}` });
+    const imageMeta = await convertImage(path.join(floatRoot, imageName), outputPath);
+    floatImages.push({ src: `/media/float/${outputName}`, ...imageMeta, alt: `Park Hojun image ${index + 1}` });
   }
 
   for (const sectionFolder of sectionFolders) {
@@ -157,9 +176,8 @@ async function main() {
       for (const [index, imageName] of sourceImages.entries()) {
         const outputName = `${String(index + 1).padStart(2, "0")}.webp`;
         const outputPath = path.join(projectOutput, outputName);
-        await sharp(path.join(projectRootPath, imageName)).rotate().resize({ width: 3200, withoutEnlargement: true }).webp({ quality: 90, effort: 5 }).toFile(outputPath);
-        const imageMeta = await sharp(outputPath).metadata();
-        const image = { src: `/media/portfolio/${slug}/${outputName}`, width: imageMeta.width ?? 1600, height: imageMeta.height ?? 1200, alt: field(meta, `이미지${index + 1}설명`, `image${index + 1}alt`) || `${title} ${index + 1}` };
+        const imageMeta = await convertImage(path.join(projectRootPath, imageName), outputPath);
+        const image = { src: `/media/portfolio/${slug}/${outputName}`, ...imageMeta, alt: field(meta, `이미지${index + 1}설명`, `image${index + 1}alt`) || `${title} ${index + 1}` };
         if (imageOrder(imageName).isWall) {
           if (normalCountBeforeWall === null) normalCountBeforeWall = images.length;
           wallImages.push(image);
@@ -174,12 +192,13 @@ async function main() {
       const cover = images[0] ?? wallImages[0] ?? children[0]?.cover;
       const category = field(meta, "카테고리", "category") || projectParsed.title;
       const roles = roleFields(meta);
+      const liveReferenceUrl = referenceUrl(meta);
       sectionCategories.add(category);
       const homeOrder = parentSlug ? null : mainOrder.get(comparable(title)) ?? mainOrder.get(comparable(slug)) ?? null;
       return {
         slug, title, section: sectionParsed.title, sectionOrder: sectionParsed.order, projectOrder: projectParsed.order,
         category, summary: "", year: field(meta, "연도", "year"), role: roles.map((item) => item.name).join(", "), roles,
-        contribution: numberField(field(meta, "기여도", "contribution"), 100), client: field(meta, "클라이언트", "client"), cover,
+        contribution: numberField(field(meta, "기여도", "contribution"), 100), client: field(meta, "클라이언트", "client"), ...(liveReferenceUrl ? { referenceUrl: liveReferenceUrl } : {}), cover,
         images, wallImages, wallInsertAfter: normalCountBeforeWall ?? 0, galleryBlocks, featured: homeOrder !== null, homeOrder,
         children, isCollection: children.length > 0,
       };

@@ -32,6 +32,12 @@
       "width": 1440,
       "height": 1915,
       "alt": "Park Hojun image 4"
+    },
+    {
+      "src": "/media/float/05.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Park Hojun image 5"
     }
   ],
   "sections": [
@@ -77,6 +83,7 @@
       ],
       "contribution": 0,
       "client": "",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/usa/01.webp",
         "width": 2915,
@@ -915,6 +922,7 @@
       ],
       "contribution": 0,
       "client": "",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/movement/01.webp",
         "width": 1366,
@@ -1154,6 +1162,7 @@
       ],
       "contribution": 0,
       "client": "",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/o2o-firstroast-coffee/01.webp",
         "width": 2048,
@@ -1342,6 +1351,7 @@
       ],
       "contribution": 0,
       "client": "",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/china-gp/01.webp",
         "width": 1517,
@@ -1547,6 +1557,7 @@
       ],
       "contribution": 0,
       "client": "",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/pawple/01.webp",
         "width": 2161,
@@ -1726,31 +1737,32 @@
       "category": "Food",
       "summary": "",
       "year": "2025-2026",
-      "role": "Photography, Direction, Copywriting, Editing, Styling",
+      "role": "Direction, Photography, Copywriting, Editing, Styling",
       "roles": [
         {
-          "name": "Photography",
-          "contribution": 80
+          "name": "Direction",
+          "contribution": 100
         },
         {
-          "name": "Direction",
-          "contribution": 80
+          "name": "Photography",
+          "contribution": 100
         },
         {
           "name": "Copywriting",
-          "contribution": 80
+          "contribution": 50
         },
         {
           "name": "Editing",
-          "contribution": 80
+          "contribution": 100
         },
         {
           "name": "Styling",
-          "contribution": 80
+          "contribution": 100
         }
       ],
       "contribution": 0,
       "client": "Wiselycompany",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/wisetable/01.webp",
         "width": 2160,
@@ -2240,6 +2252,7 @@
       ],
       "contribution": 0,
       "client": "Axiom",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/roadic/01.webp",
         "width": 3200,
@@ -2664,6 +2677,7 @@
       ],
       "contribution": 0,
       "client": "RUFFNTUFF",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/ruffntuff/21ss/01.webp",
         "width": 960,
@@ -2690,6 +2704,7 @@
           "roles": [],
           "contribution": 0,
           "client": "",
+          "referenceUrl": "",
           "cover": {
             "src": "/media/portfolio/ruffntuff/21ss/01.webp",
             "width": 960,
@@ -3066,6 +3081,7 @@
           "roles": [],
           "contribution": 0,
           "client": "",
+          "referenceUrl": "",
           "cover": {
             "src": "/media/portfolio/ruffntuff/21fw/01.webp",
             "width": 1080,
@@ -3092,21 +3108,23 @@
               "alt": "21FW 3"
             },
             {
-              "src": "/media/portfolio/ruffntuff/21fw/12.webp",
-              "width": 2048,
-              "height": 3072,
-              "alt": "21FW 12"
+              "src": "/media/portfolio/ruffntuff/21fw/04.webp",
+              "width": 1080,
+              "height": 1280,
+              "animated": true,
+              "alt": "21FW 4"
             },
             {
-              "src": "/media/portfolio/ruffntuff/21fw/13.webp",
-              "width": 1000,
-              "height": 1200,
-              "alt": "21FW 13"
+              "src": "/media/portfolio/ruffntuff/21fw/05.webp",
+              "width": 1920,
+              "height": 1080,
+              "animated": true,
+              "alt": "21FW 5"
             },
             {
               "src": "/media/portfolio/ruffntuff/21fw/14.webp",
-              "width": 1000,
-              "height": 1200,
+              "width": 2048,
+              "height": 3072,
               "alt": "21FW 14"
             },
             {
@@ -3126,25 +3144,25 @@
               "width": 1000,
               "height": 1200,
               "alt": "21FW 17"
+            },
+            {
+              "src": "/media/portfolio/ruffntuff/21fw/18.webp",
+              "width": 1000,
+              "height": 1200,
+              "alt": "21FW 18"
+            },
+            {
+              "src": "/media/portfolio/ruffntuff/21fw/19.webp",
+              "width": 1000,
+              "height": 1200,
+              "alt": "21FW 19"
             }
           ],
           "wallImages": [
             {
-              "src": "/media/portfolio/ruffntuff/21fw/04.webp",
-              "width": 1000,
-              "height": 1197,
-              "alt": "21FW 4"
-            },
-            {
-              "src": "/media/portfolio/ruffntuff/21fw/05.webp",
-              "width": 1000,
-              "height": 1200,
-              "alt": "21FW 5"
-            },
-            {
               "src": "/media/portfolio/ruffntuff/21fw/06.webp",
               "width": 1000,
-              "height": 1200,
+              "height": 1197,
               "alt": "21FW 6"
             },
             {
@@ -3176,9 +3194,21 @@
               "width": 1000,
               "height": 1200,
               "alt": "21FW 11"
+            },
+            {
+              "src": "/media/portfolio/ruffntuff/21fw/12.webp",
+              "width": 1000,
+              "height": 1200,
+              "alt": "21FW 12"
+            },
+            {
+              "src": "/media/portfolio/ruffntuff/21fw/13.webp",
+              "width": 1000,
+              "height": 1200,
+              "alt": "21FW 13"
             }
           ],
-          "wallInsertAfter": 3,
+          "wallInsertAfter": 5,
           "galleryBlocks": [
             {
               "type": "image",
@@ -3214,24 +3244,36 @@
               ]
             },
             {
-              "type": "wall",
+              "type": "image",
               "images": [
                 {
                   "src": "/media/portfolio/ruffntuff/21fw/04.webp",
-                  "width": 1000,
-                  "height": 1197,
+                  "width": 1080,
+                  "height": 1280,
+                  "animated": true,
                   "alt": "21FW 4"
-                },
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "images": [
                 {
                   "src": "/media/portfolio/ruffntuff/21fw/05.webp",
-                  "width": 1000,
-                  "height": 1200,
+                  "width": 1920,
+                  "height": 1080,
+                  "animated": true,
                   "alt": "21FW 5"
-                },
+                }
+              ]
+            },
+            {
+              "type": "wall",
+              "images": [
                 {
                   "src": "/media/portfolio/ruffntuff/21fw/06.webp",
                   "width": 1000,
-                  "height": 1200,
+                  "height": 1197,
                   "alt": "21FW 6"
                 },
                 {
@@ -3263,23 +3305,13 @@
                   "width": 1000,
                   "height": 1200,
                   "alt": "21FW 11"
-                }
-              ]
-            },
-            {
-              "type": "image",
-              "images": [
+                },
                 {
                   "src": "/media/portfolio/ruffntuff/21fw/12.webp",
-                  "width": 2048,
-                  "height": 3072,
+                  "width": 1000,
+                  "height": 1200,
                   "alt": "21FW 12"
-                }
-              ]
-            },
-            {
-              "type": "image",
-              "images": [
+                },
                 {
                   "src": "/media/portfolio/ruffntuff/21fw/13.webp",
                   "width": 1000,
@@ -3293,8 +3325,8 @@
               "images": [
                 {
                   "src": "/media/portfolio/ruffntuff/21fw/14.webp",
-                  "width": 1000,
-                  "height": 1200,
+                  "width": 2048,
+                  "height": 3072,
                   "alt": "21FW 14"
                 }
               ]
@@ -3331,6 +3363,28 @@
                   "alt": "21FW 17"
                 }
               ]
+            },
+            {
+              "type": "image",
+              "images": [
+                {
+                  "src": "/media/portfolio/ruffntuff/21fw/18.webp",
+                  "width": 1000,
+                  "height": 1200,
+                  "alt": "21FW 18"
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "images": [
+                {
+                  "src": "/media/portfolio/ruffntuff/21fw/19.webp",
+                  "width": 1000,
+                  "height": 1200,
+                  "alt": "21FW 19"
+                }
+              ]
             }
           ],
           "featured": false,
@@ -3351,6 +3405,7 @@
           "roles": [],
           "contribution": 0,
           "client": "",
+          "referenceUrl": "",
           "cover": {
             "src": "/media/portfolio/ruffntuff/22ss/01.webp",
             "width": 1920,
@@ -3693,15 +3748,24 @@
       "category": "food",
       "summary": "",
       "year": "2026",
-      "role": "photography 100 styling 100 editing",
+      "role": "photography, styling, editing",
       "roles": [
         {
-          "name": "photography 100 styling 100 editing",
+          "name": "photography",
+          "contribution": 100
+        },
+        {
+          "name": "styling",
+          "contribution": 100
+        },
+        {
+          "name": "editing",
           "contribution": 100
         }
       ],
       "contribution": 0,
       "client": "duedance",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/yonbek-mochi/01.webp",
         "width": 3200,
@@ -3890,6 +3954,7 @@
       ],
       "contribution": 0,
       "client": "wiselycompany",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/food/01.webp",
         "width": 1440,
@@ -3993,6 +4058,7 @@
       ],
       "contribution": 0,
       "client": "Flow xl crew",
+      "referenceUrl": "",
       "cover": {
         "src": "/media/portfolio/fxl-after-party/01.webp",
         "width": 2048,
