@@ -2,6 +2,7 @@ import content from "@/data/portfolio.json";
 
 export type PortfolioImage = { src: string; width: number; height: number; alt: string };
 export type GalleryBlock = { type: "image" | "wall"; images: PortfolioImage[] };
+export type ProjectRole = { name: string; contribution: number };
 
 export type PortfolioFloat = PortfolioImage;
 export type Project = {
@@ -15,6 +16,7 @@ export type Project = {
   year: string;
   role: string;
   contribution: number;
+  roles?: ProjectRole[];
   client: string;
   cover: PortfolioImage;
   images: PortfolioImage[];

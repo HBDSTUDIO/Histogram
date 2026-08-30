@@ -68,15 +68,14 @@ portfolio-content/
 제목: ROADIC
 슬러그: roadic
 카테고리: Lifestyle
-설명: 움직임이 있는 라이프스타일 제품을 차분한 프레임으로 기록.
 연도: 2024
-역할: Photography / Retouching
-기여도: 80
+역할별 기여도: Photography 100%, Direction 80%, Retouching 70%
 클라이언트: ROADIC
-이미지1설명: ROADIC 캠페인 대표 이미지
 ```
 
 `제목`과 `슬러그`를 생략하면 폴더 이름으로 자동 생성합니다. 이미 공개한 프로젝트의 슬러그는 주소가 바뀌므로 가급적 유지합니다.
+프로젝트 설명은 입력하지 않습니다. 이미지 설명도 파일 순서에 맞춰 자동 생성됩니다.
+`역할별 기여도`에는 역할과 해당 기여도를 쉼표로 구분해 원하는 만큼 입력합니다. 예: `Photography 100%, Direction 80%, Editing 60%`
 
 ## 배포 전 한 번만 할 일
 

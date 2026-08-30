@@ -80,6 +80,18 @@ function numberField(value, fallback) {
   return Number.isFinite(parsed) ? parsed : fallback;
 }
 
+function roleFields(meta) {
+  const fallbackContribution = numberField(field(meta, "기여도", "contribution"), 100);
+  const combined = field(meta, "역할별 기여도", "rolecontributions", "roles");
+  const values = combined || field(meta, "역할", "role");
+  return values.split(/[,|/]/u).map((value) => value.trim()).filter(Boolean).map((value) => {
+    const match = value.match(/^(.*?)(?:\s*[:=]\s*|\s+)(\d+(?:\.\d+)?)%?$/u);
+    return match
+      ? { name: match[1].trim(), contribution: numberField(match[2], fallbackContribution) }
+      : { name: value, contribution: fallbackContribution };
+  });
+}
+
 async function main() {
   if (!(await exists(sourceRoot))) throw new Error("portfolio-content 폴더가 없습니다.");
 
@@ -123,7 +135,7 @@ async function main() {
       const projectParsed = orderedName(projectFolder);
       const meta = await keyValues(path.join(projectRootPath, "info.txt"));
       const title = field(meta, "제목", "title") || projectParsed.title;
-      const localSlug = field(meta, "슬러그", "slug") || slugify(title, `project-${sectionParsed.order}-${projectParsed.order}`);
+      const localSlug = slugify(field(meta, "슬러그", "slug") || title, `project-${sectionParsed.order}-${projectParsed.order}`);
       const slug = parentSlug ? `${parentSlug}/${localSlug}` : localSlug;
       if (usedSlugs.has(slug)) throw new Error(`중복 슬러그: ${slug}`);
       usedSlugs.add(slug);
@@ -160,11 +172,12 @@ async function main() {
       }
       const cover = images[0] ?? wallImages[0] ?? children[0]?.cover;
       const category = field(meta, "카테고리", "category") || projectParsed.title;
+      const roles = roleFields(meta);
       sectionCategories.add(category);
       const homeOrder = parentSlug ? null : mainOrder.get(comparable(title)) ?? mainOrder.get(comparable(slug)) ?? null;
       return {
         slug, title, section: sectionParsed.title, sectionOrder: sectionParsed.order, projectOrder: projectParsed.order,
-        category, summary: field(meta, "설명", "description", "summary"), year: field(meta, "연도", "year"), role: field(meta, "역할", "role"),
+        category, summary: "", year: field(meta, "연도", "year"), role: roles.map((item) => item.name).join(", "), roles,
         contribution: numberField(field(meta, "기여도", "contribution"), 100), client: field(meta, "클라이언트", "client"), cover,
         images, wallImages, wallInsertAfter: normalCountBeforeWall ?? 0, galleryBlocks, featured: homeOrder !== null, homeOrder,
         children, isCollection: children.length > 0,

@@ -65,146 +65,152 @@
   ],
   "projects": [
     {
-      "slug": "USA",
+      "slug": "usa",
       "title": "USA",
       "section": "Personal Work",
       "sectionOrder": 1,
       "projectOrder": 1,
       "category": "Trip",
-      "summary": "미국 서부를 돌아다니며 남긴 기록",
+      "summary": "",
       "year": "2025",
       "role": "Photography",
+      "roles": [
+        {
+          "name": "Photography",
+          "contribution": 100
+        }
+      ],
       "contribution": 100,
       "client": "",
       "cover": {
-        "src": "/media/portfolio/USA/01.webp",
+        "src": "/media/portfolio/usa/01.webp",
         "width": 2915,
         "height": 4370,
         "alt": "USA 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/USA/01.webp",
+          "src": "/media/portfolio/usa/01.webp",
           "width": 2915,
           "height": 4370,
           "alt": "USA 1"
         },
         {
-          "src": "/media/portfolio/USA/02.webp",
+          "src": "/media/portfolio/usa/02.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 2"
         },
         {
-          "src": "/media/portfolio/USA/03.webp",
+          "src": "/media/portfolio/usa/03.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 3"
         },
         {
-          "src": "/media/portfolio/USA/04.webp",
+          "src": "/media/portfolio/usa/04.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 4"
         },
         {
-          "src": "/media/portfolio/USA/05.webp",
+          "src": "/media/portfolio/usa/05.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 5"
         },
         {
-          "src": "/media/portfolio/USA/06.webp",
+          "src": "/media/portfolio/usa/06.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 6"
         },
         {
-          "src": "/media/portfolio/USA/11.webp",
+          "src": "/media/portfolio/usa/11.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 11"
         },
         {
-          "src": "/media/portfolio/USA/16.webp",
+          "src": "/media/portfolio/usa/16.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 16"
         },
         {
-          "src": "/media/portfolio/USA/17.webp",
+          "src": "/media/portfolio/usa/17.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 17"
         },
         {
-          "src": "/media/portfolio/USA/18.webp",
+          "src": "/media/portfolio/usa/18.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 18"
         },
         {
-          "src": "/media/portfolio/USA/19.webp",
+          "src": "/media/portfolio/usa/19.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 19"
         },
         {
-          "src": "/media/portfolio/USA/20.webp",
+          "src": "/media/portfolio/usa/20.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 20"
         },
         {
-          "src": "/media/portfolio/USA/21.webp",
+          "src": "/media/portfolio/usa/21.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 21"
         },
         {
-          "src": "/media/portfolio/USA/22.webp",
+          "src": "/media/portfolio/usa/22.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 22"
         },
         {
-          "src": "/media/portfolio/USA/35.webp",
+          "src": "/media/portfolio/usa/35.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 35"
         },
         {
-          "src": "/media/portfolio/USA/36.webp",
+          "src": "/media/portfolio/usa/36.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 36"
         },
         {
-          "src": "/media/portfolio/USA/41.webp",
+          "src": "/media/portfolio/usa/41.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 41"
         },
         {
-          "src": "/media/portfolio/USA/42.webp",
+          "src": "/media/portfolio/usa/42.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 42"
         },
         {
-          "src": "/media/portfolio/USA/43.webp",
+          "src": "/media/portfolio/usa/43.webp",
           "width": 3200,
           "height": 4797,
           "alt": "USA 43"
         },
         {
-          "src": "/media/portfolio/USA/44.webp",
+          "src": "/media/portfolio/usa/44.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 44"
         },
         {
-          "src": "/media/portfolio/USA/56.webp",
+          "src": "/media/portfolio/usa/56.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 56"
@@ -212,211 +218,211 @@
       ],
       "wallImages": [
         {
-          "src": "/media/portfolio/USA/07.webp",
+          "src": "/media/portfolio/usa/07.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 7"
         },
         {
-          "src": "/media/portfolio/USA/08.webp",
+          "src": "/media/portfolio/usa/08.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 8"
         },
         {
-          "src": "/media/portfolio/USA/09.webp",
+          "src": "/media/portfolio/usa/09.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 9"
         },
         {
-          "src": "/media/portfolio/USA/10.webp",
+          "src": "/media/portfolio/usa/10.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 10"
         },
         {
-          "src": "/media/portfolio/USA/12.webp",
+          "src": "/media/portfolio/usa/12.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 12"
         },
         {
-          "src": "/media/portfolio/USA/13.webp",
+          "src": "/media/portfolio/usa/13.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 13"
         },
         {
-          "src": "/media/portfolio/USA/14.webp",
+          "src": "/media/portfolio/usa/14.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 14"
         },
         {
-          "src": "/media/portfolio/USA/15.webp",
+          "src": "/media/portfolio/usa/15.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 15"
         },
         {
-          "src": "/media/portfolio/USA/23.webp",
+          "src": "/media/portfolio/usa/23.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 23"
         },
         {
-          "src": "/media/portfolio/USA/24.webp",
+          "src": "/media/portfolio/usa/24.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 24"
         },
         {
-          "src": "/media/portfolio/USA/25.webp",
+          "src": "/media/portfolio/usa/25.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 25"
         },
         {
-          "src": "/media/portfolio/USA/26.webp",
+          "src": "/media/portfolio/usa/26.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 26"
         },
         {
-          "src": "/media/portfolio/USA/27.webp",
+          "src": "/media/portfolio/usa/27.webp",
           "width": 2710,
           "height": 4062,
           "alt": "USA 27"
         },
         {
-          "src": "/media/portfolio/USA/28.webp",
+          "src": "/media/portfolio/usa/28.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 28"
         },
         {
-          "src": "/media/portfolio/USA/29.webp",
+          "src": "/media/portfolio/usa/29.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 29"
         },
         {
-          "src": "/media/portfolio/USA/30.webp",
+          "src": "/media/portfolio/usa/30.webp",
           "width": 2959,
           "height": 4435,
           "alt": "USA 30"
         },
         {
-          "src": "/media/portfolio/USA/31.webp",
+          "src": "/media/portfolio/usa/31.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 31"
         },
         {
-          "src": "/media/portfolio/USA/32.webp",
+          "src": "/media/portfolio/usa/32.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 32"
         },
         {
-          "src": "/media/portfolio/USA/33.webp",
+          "src": "/media/portfolio/usa/33.webp",
           "width": 3077,
           "height": 4611,
           "alt": "USA 33"
         },
         {
-          "src": "/media/portfolio/USA/34.webp",
+          "src": "/media/portfolio/usa/34.webp",
           "width": 3136,
           "height": 4699,
           "alt": "USA 34"
         },
         {
-          "src": "/media/portfolio/USA/37.webp",
+          "src": "/media/portfolio/usa/37.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 37"
         },
         {
-          "src": "/media/portfolio/USA/38.webp",
+          "src": "/media/portfolio/usa/38.webp",
           "width": 3060,
           "height": 4586,
           "alt": "USA 38"
         },
         {
-          "src": "/media/portfolio/USA/39.webp",
+          "src": "/media/portfolio/usa/39.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 39"
         },
         {
-          "src": "/media/portfolio/USA/40.webp",
+          "src": "/media/portfolio/usa/40.webp",
           "width": 3200,
           "height": 4797,
           "alt": "USA 40"
         },
         {
-          "src": "/media/portfolio/USA/45.webp",
+          "src": "/media/portfolio/usa/45.webp",
           "width": 2855,
           "height": 4279,
           "alt": "USA 45"
         },
         {
-          "src": "/media/portfolio/USA/46.webp",
+          "src": "/media/portfolio/usa/46.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 46"
         },
         {
-          "src": "/media/portfolio/USA/47.webp",
+          "src": "/media/portfolio/usa/47.webp",
           "width": 3170,
           "height": 4750,
           "alt": "USA 47"
         },
         {
-          "src": "/media/portfolio/USA/48.webp",
+          "src": "/media/portfolio/usa/48.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 48"
         },
         {
-          "src": "/media/portfolio/USA/49.webp",
+          "src": "/media/portfolio/usa/49.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 49"
         },
         {
-          "src": "/media/portfolio/USA/50.webp",
+          "src": "/media/portfolio/usa/50.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 50"
         },
         {
-          "src": "/media/portfolio/USA/51.webp",
+          "src": "/media/portfolio/usa/51.webp",
           "width": 3162,
           "height": 4740,
           "alt": "USA 51"
         },
         {
-          "src": "/media/portfolio/USA/52.webp",
+          "src": "/media/portfolio/usa/52.webp",
           "width": 3200,
           "height": 4796,
           "alt": "USA 52"
         },
         {
-          "src": "/media/portfolio/USA/53.webp",
+          "src": "/media/portfolio/usa/53.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 53"
         },
         {
-          "src": "/media/portfolio/USA/54.webp",
+          "src": "/media/portfolio/usa/54.webp",
           "width": 3200,
           "height": 2135,
           "alt": "USA 54"
         },
         {
-          "src": "/media/portfolio/USA/55.webp",
+          "src": "/media/portfolio/usa/55.webp",
           "width": 3200,
           "height": 4797,
           "alt": "USA 55"
@@ -428,7 +434,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/01.webp",
+              "src": "/media/portfolio/usa/01.webp",
               "width": 2915,
               "height": 4370,
               "alt": "USA 1"
@@ -439,7 +445,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/02.webp",
+              "src": "/media/portfolio/usa/02.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 2"
@@ -450,7 +456,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/03.webp",
+              "src": "/media/portfolio/usa/03.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 3"
@@ -461,7 +467,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/04.webp",
+              "src": "/media/portfolio/usa/04.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 4"
@@ -472,7 +478,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/05.webp",
+              "src": "/media/portfolio/usa/05.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 5"
@@ -483,7 +489,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/06.webp",
+              "src": "/media/portfolio/usa/06.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 6"
@@ -494,25 +500,25 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/USA/07.webp",
+              "src": "/media/portfolio/usa/07.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 7"
             },
             {
-              "src": "/media/portfolio/USA/08.webp",
+              "src": "/media/portfolio/usa/08.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 8"
             },
             {
-              "src": "/media/portfolio/USA/09.webp",
+              "src": "/media/portfolio/usa/09.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 9"
             },
             {
-              "src": "/media/portfolio/USA/10.webp",
+              "src": "/media/portfolio/usa/10.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 10"
@@ -523,7 +529,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/11.webp",
+              "src": "/media/portfolio/usa/11.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 11"
@@ -534,25 +540,25 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/USA/12.webp",
+              "src": "/media/portfolio/usa/12.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 12"
             },
             {
-              "src": "/media/portfolio/USA/13.webp",
+              "src": "/media/portfolio/usa/13.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 13"
             },
             {
-              "src": "/media/portfolio/USA/14.webp",
+              "src": "/media/portfolio/usa/14.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 14"
             },
             {
-              "src": "/media/portfolio/USA/15.webp",
+              "src": "/media/portfolio/usa/15.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 15"
@@ -563,7 +569,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/16.webp",
+              "src": "/media/portfolio/usa/16.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 16"
@@ -574,7 +580,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/17.webp",
+              "src": "/media/portfolio/usa/17.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 17"
@@ -585,7 +591,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/18.webp",
+              "src": "/media/portfolio/usa/18.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 18"
@@ -596,7 +602,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/19.webp",
+              "src": "/media/portfolio/usa/19.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 19"
@@ -607,7 +613,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/20.webp",
+              "src": "/media/portfolio/usa/20.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 20"
@@ -618,7 +624,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/21.webp",
+              "src": "/media/portfolio/usa/21.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 21"
@@ -629,7 +635,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/22.webp",
+              "src": "/media/portfolio/usa/22.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 22"
@@ -640,73 +646,73 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/USA/23.webp",
+              "src": "/media/portfolio/usa/23.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 23"
             },
             {
-              "src": "/media/portfolio/USA/24.webp",
+              "src": "/media/portfolio/usa/24.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 24"
             },
             {
-              "src": "/media/portfolio/USA/25.webp",
+              "src": "/media/portfolio/usa/25.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 25"
             },
             {
-              "src": "/media/portfolio/USA/26.webp",
+              "src": "/media/portfolio/usa/26.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 26"
             },
             {
-              "src": "/media/portfolio/USA/27.webp",
+              "src": "/media/portfolio/usa/27.webp",
               "width": 2710,
               "height": 4062,
               "alt": "USA 27"
             },
             {
-              "src": "/media/portfolio/USA/28.webp",
+              "src": "/media/portfolio/usa/28.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 28"
             },
             {
-              "src": "/media/portfolio/USA/29.webp",
+              "src": "/media/portfolio/usa/29.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 29"
             },
             {
-              "src": "/media/portfolio/USA/30.webp",
+              "src": "/media/portfolio/usa/30.webp",
               "width": 2959,
               "height": 4435,
               "alt": "USA 30"
             },
             {
-              "src": "/media/portfolio/USA/31.webp",
+              "src": "/media/portfolio/usa/31.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 31"
             },
             {
-              "src": "/media/portfolio/USA/32.webp",
+              "src": "/media/portfolio/usa/32.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 32"
             },
             {
-              "src": "/media/portfolio/USA/33.webp",
+              "src": "/media/portfolio/usa/33.webp",
               "width": 3077,
               "height": 4611,
               "alt": "USA 33"
             },
             {
-              "src": "/media/portfolio/USA/34.webp",
+              "src": "/media/portfolio/usa/34.webp",
               "width": 3136,
               "height": 4699,
               "alt": "USA 34"
@@ -717,7 +723,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/35.webp",
+              "src": "/media/portfolio/usa/35.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 35"
@@ -728,7 +734,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/36.webp",
+              "src": "/media/portfolio/usa/36.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 36"
@@ -739,25 +745,25 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/USA/37.webp",
+              "src": "/media/portfolio/usa/37.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 37"
             },
             {
-              "src": "/media/portfolio/USA/38.webp",
+              "src": "/media/portfolio/usa/38.webp",
               "width": 3060,
               "height": 4586,
               "alt": "USA 38"
             },
             {
-              "src": "/media/portfolio/USA/39.webp",
+              "src": "/media/portfolio/usa/39.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 39"
             },
             {
-              "src": "/media/portfolio/USA/40.webp",
+              "src": "/media/portfolio/usa/40.webp",
               "width": 3200,
               "height": 4797,
               "alt": "USA 40"
@@ -768,7 +774,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/41.webp",
+              "src": "/media/portfolio/usa/41.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 41"
@@ -779,7 +785,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/42.webp",
+              "src": "/media/portfolio/usa/42.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 42"
@@ -790,7 +796,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/43.webp",
+              "src": "/media/portfolio/usa/43.webp",
               "width": 3200,
               "height": 4797,
               "alt": "USA 43"
@@ -801,7 +807,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/44.webp",
+              "src": "/media/portfolio/usa/44.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 44"
@@ -812,67 +818,67 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/USA/45.webp",
+              "src": "/media/portfolio/usa/45.webp",
               "width": 2855,
               "height": 4279,
               "alt": "USA 45"
             },
             {
-              "src": "/media/portfolio/USA/46.webp",
+              "src": "/media/portfolio/usa/46.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 46"
             },
             {
-              "src": "/media/portfolio/USA/47.webp",
+              "src": "/media/portfolio/usa/47.webp",
               "width": 3170,
               "height": 4750,
               "alt": "USA 47"
             },
             {
-              "src": "/media/portfolio/USA/48.webp",
+              "src": "/media/portfolio/usa/48.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 48"
             },
             {
-              "src": "/media/portfolio/USA/49.webp",
+              "src": "/media/portfolio/usa/49.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 49"
             },
             {
-              "src": "/media/portfolio/USA/50.webp",
+              "src": "/media/portfolio/usa/50.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 50"
             },
             {
-              "src": "/media/portfolio/USA/51.webp",
+              "src": "/media/portfolio/usa/51.webp",
               "width": 3162,
               "height": 4740,
               "alt": "USA 51"
             },
             {
-              "src": "/media/portfolio/USA/52.webp",
+              "src": "/media/portfolio/usa/52.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 52"
             },
             {
-              "src": "/media/portfolio/USA/53.webp",
+              "src": "/media/portfolio/usa/53.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 53"
             },
             {
-              "src": "/media/portfolio/USA/54.webp",
+              "src": "/media/portfolio/usa/54.webp",
               "width": 3200,
               "height": 2135,
               "alt": "USA 54"
             },
             {
-              "src": "/media/portfolio/USA/55.webp",
+              "src": "/media/portfolio/usa/55.webp",
               "width": 3200,
               "height": 4797,
               "alt": "USA 55"
@@ -883,7 +889,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/USA/56.webp",
+              "src": "/media/portfolio/usa/56.webp",
               "width": 3200,
               "height": 4796,
               "alt": "USA 56"
@@ -897,92 +903,98 @@
       "isCollection": false
     },
     {
-      "slug": "Movement",
+      "slug": "movement",
       "title": "Danang",
       "section": "Personal Work",
       "sectionOrder": 1,
       "projectOrder": 2,
       "category": "Trip",
-      "summary": "다낭과 움직임",
+      "summary": "",
       "year": "2026",
       "role": "Photography",
+      "roles": [
+        {
+          "name": "Photography",
+          "contribution": 100
+        }
+      ],
       "contribution": 100,
       "client": "",
       "cover": {
-        "src": "/media/portfolio/Movement/01.webp",
+        "src": "/media/portfolio/movement/01.webp",
         "width": 1366,
         "height": 2048,
         "alt": "Danang 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/Movement/01.webp",
+          "src": "/media/portfolio/movement/01.webp",
           "width": 1366,
           "height": 2048,
           "alt": "Danang 1"
         },
         {
-          "src": "/media/portfolio/Movement/02.webp",
+          "src": "/media/portfolio/movement/02.webp",
           "width": 1366,
           "height": 2048,
           "alt": "Danang 2"
         },
         {
-          "src": "/media/portfolio/Movement/03.webp",
+          "src": "/media/portfolio/movement/03.webp",
           "width": 1366,
           "height": 2048,
           "alt": "Danang 3"
         },
         {
-          "src": "/media/portfolio/Movement/04.webp",
+          "src": "/media/portfolio/movement/04.webp",
           "width": 1366,
           "height": 2048,
           "alt": "Danang 4"
         },
         {
-          "src": "/media/portfolio/Movement/05.webp",
+          "src": "/media/portfolio/movement/05.webp",
           "width": 1366,
           "height": 2048,
           "alt": "Danang 5"
         },
         {
-          "src": "/media/portfolio/Movement/06.webp",
+          "src": "/media/portfolio/movement/06.webp",
           "width": 1366,
           "height": 2048,
           "alt": "Danang 6"
         },
         {
-          "src": "/media/portfolio/Movement/07.webp",
+          "src": "/media/portfolio/movement/07.webp",
           "width": 1366,
           "height": 2048,
           "alt": "Danang 7"
         },
         {
-          "src": "/media/portfolio/Movement/08.webp",
+          "src": "/media/portfolio/movement/08.webp",
           "width": 1366,
           "height": 2048,
           "alt": "Danang 8"
         },
         {
-          "src": "/media/portfolio/Movement/09.webp",
+          "src": "/media/portfolio/movement/09.webp",
           "width": 2048,
           "height": 1366,
           "alt": "Danang 9"
         },
         {
-          "src": "/media/portfolio/Movement/10.webp",
+          "src": "/media/portfolio/movement/10.webp",
           "width": 2048,
           "height": 1366,
           "alt": "Danang 10"
         },
         {
-          "src": "/media/portfolio/Movement/11.webp",
+          "src": "/media/portfolio/movement/11.webp",
           "width": 2048,
           "height": 1366,
           "alt": "Danang 11"
         },
         {
-          "src": "/media/portfolio/Movement/12.webp",
+          "src": "/media/portfolio/movement/12.webp",
           "width": 2048,
           "height": 1366,
           "alt": "Danang 12"
@@ -995,7 +1007,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/01.webp",
+              "src": "/media/portfolio/movement/01.webp",
               "width": 1366,
               "height": 2048,
               "alt": "Danang 1"
@@ -1006,7 +1018,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/02.webp",
+              "src": "/media/portfolio/movement/02.webp",
               "width": 1366,
               "height": 2048,
               "alt": "Danang 2"
@@ -1017,7 +1029,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/03.webp",
+              "src": "/media/portfolio/movement/03.webp",
               "width": 1366,
               "height": 2048,
               "alt": "Danang 3"
@@ -1028,7 +1040,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/04.webp",
+              "src": "/media/portfolio/movement/04.webp",
               "width": 1366,
               "height": 2048,
               "alt": "Danang 4"
@@ -1039,7 +1051,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/05.webp",
+              "src": "/media/portfolio/movement/05.webp",
               "width": 1366,
               "height": 2048,
               "alt": "Danang 5"
@@ -1050,7 +1062,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/06.webp",
+              "src": "/media/portfolio/movement/06.webp",
               "width": 1366,
               "height": 2048,
               "alt": "Danang 6"
@@ -1061,7 +1073,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/07.webp",
+              "src": "/media/portfolio/movement/07.webp",
               "width": 1366,
               "height": 2048,
               "alt": "Danang 7"
@@ -1072,7 +1084,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/08.webp",
+              "src": "/media/portfolio/movement/08.webp",
               "width": 1366,
               "height": 2048,
               "alt": "Danang 8"
@@ -1083,7 +1095,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/09.webp",
+              "src": "/media/portfolio/movement/09.webp",
               "width": 2048,
               "height": 1366,
               "alt": "Danang 9"
@@ -1094,7 +1106,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/10.webp",
+              "src": "/media/portfolio/movement/10.webp",
               "width": 2048,
               "height": 1366,
               "alt": "Danang 10"
@@ -1105,7 +1117,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/11.webp",
+              "src": "/media/portfolio/movement/11.webp",
               "width": 2048,
               "height": 1366,
               "alt": "Danang 11"
@@ -1116,7 +1128,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Movement/12.webp",
+              "src": "/media/portfolio/movement/12.webp",
               "width": 2048,
               "height": 1366,
               "alt": "Danang 12"
@@ -1130,74 +1142,80 @@
       "isCollection": false
     },
     {
-      "slug": "O2O-firstroast-coffee",
+      "slug": "o2o-firstroast-coffee",
       "title": "O2O firstroast coffee",
       "section": "Personal Work",
       "sectionOrder": 1,
       "projectOrder": 3,
       "category": "Personal work",
-      "summary": "다낭 스페셜티 카페 o2o 로스터리. 작은 카페의 바텐더가 특별한 경험을 준다.",
+      "summary": "",
       "year": "2026",
       "role": "Photography",
+      "roles": [
+        {
+          "name": "Photography",
+          "contribution": 100
+        }
+      ],
       "contribution": 100,
       "client": "",
       "cover": {
-        "src": "/media/portfolio/O2O-firstroast-coffee/01.webp",
+        "src": "/media/portfolio/o2o-firstroast-coffee/01.webp",
         "width": 2048,
         "height": 1366,
         "alt": "O2O firstroast coffee 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/01.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/01.webp",
           "width": 2048,
           "height": 1366,
           "alt": "O2O firstroast coffee 1"
         },
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/02.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/02.webp",
           "width": 1756,
           "height": 2048,
           "alt": "O2O firstroast coffee 2"
         },
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/03.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/03.webp",
           "width": 2048,
           "height": 1366,
           "alt": "O2O firstroast coffee 3"
         },
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/04.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/04.webp",
           "width": 2048,
           "height": 1366,
           "alt": "O2O firstroast coffee 4"
         },
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/05.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/05.webp",
           "width": 1366,
           "height": 2048,
           "alt": "O2O firstroast coffee 5"
         },
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/06.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/06.webp",
           "width": 1279,
           "height": 2048,
           "alt": "O2O firstroast coffee 6"
         },
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/07.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/07.webp",
           "width": 2048,
           "height": 1134,
           "alt": "O2O firstroast coffee 7"
         },
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/08.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/08.webp",
           "width": 1366,
           "height": 2048,
           "alt": "O2O firstroast coffee 8"
         },
         {
-          "src": "/media/portfolio/O2O-firstroast-coffee/09.webp",
+          "src": "/media/portfolio/o2o-firstroast-coffee/09.webp",
           "width": 1366,
           "height": 2048,
           "alt": "O2O firstroast coffee 9"
@@ -1210,7 +1228,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/01.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/01.webp",
               "width": 2048,
               "height": 1366,
               "alt": "O2O firstroast coffee 1"
@@ -1221,7 +1239,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/02.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/02.webp",
               "width": 1756,
               "height": 2048,
               "alt": "O2O firstroast coffee 2"
@@ -1232,7 +1250,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/03.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/03.webp",
               "width": 2048,
               "height": 1366,
               "alt": "O2O firstroast coffee 3"
@@ -1243,7 +1261,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/04.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/04.webp",
               "width": 2048,
               "height": 1366,
               "alt": "O2O firstroast coffee 4"
@@ -1254,7 +1272,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/05.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/05.webp",
               "width": 1366,
               "height": 2048,
               "alt": "O2O firstroast coffee 5"
@@ -1265,7 +1283,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/06.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/06.webp",
               "width": 1279,
               "height": 2048,
               "alt": "O2O firstroast coffee 6"
@@ -1276,7 +1294,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/07.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/07.webp",
               "width": 2048,
               "height": 1134,
               "alt": "O2O firstroast coffee 7"
@@ -1287,7 +1305,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/08.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/08.webp",
               "width": 1366,
               "height": 2048,
               "alt": "O2O firstroast coffee 8"
@@ -1298,7 +1316,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/O2O-firstroast-coffee/09.webp",
+              "src": "/media/portfolio/o2o-firstroast-coffee/09.webp",
               "width": 1366,
               "height": 2048,
               "alt": "O2O firstroast coffee 9"
@@ -1312,7 +1330,7 @@
       "isCollection": false
     },
     {
-      "slug": "Chinese-GP",
+      "slug": "chinese-gp",
       "title": "Chinese GP",
       "section": "Personal Work",
       "sectionOrder": 1,
@@ -1321,71 +1339,77 @@
       "summary": "",
       "year": "2026",
       "role": "Photography",
+      "roles": [
+        {
+          "name": "Photography",
+          "contribution": 100
+        }
+      ],
       "contribution": 100,
       "client": "",
       "cover": {
-        "src": "/media/portfolio/Chinese-GP/01.webp",
+        "src": "/media/portfolio/chinese-gp/01.webp",
         "width": 1517,
         "height": 2048,
         "alt": "Chinese GP 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/Chinese-GP/01.webp",
+          "src": "/media/portfolio/chinese-gp/01.webp",
           "width": 1517,
           "height": 2048,
           "alt": "Chinese GP 1"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/02.webp",
+          "src": "/media/portfolio/chinese-gp/02.webp",
           "width": 1517,
           "height": 2048,
           "alt": "Chinese GP 2"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/03.webp",
+          "src": "/media/portfolio/chinese-gp/03.webp",
           "width": 1517,
           "height": 2048,
           "alt": "Chinese GP 3"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/04.webp",
+          "src": "/media/portfolio/chinese-gp/04.webp",
           "width": 2048,
           "height": 1517,
           "alt": "Chinese GP 4"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/05.webp",
+          "src": "/media/portfolio/chinese-gp/05.webp",
           "width": 2048,
           "height": 1366,
           "alt": "Chinese GP 5"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/06.webp",
+          "src": "/media/portfolio/chinese-gp/06.webp",
           "width": 1517,
           "height": 2048,
           "alt": "Chinese GP 6"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/07.webp",
+          "src": "/media/portfolio/chinese-gp/07.webp",
           "width": 1517,
           "height": 2048,
           "alt": "Chinese GP 7"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/08.webp",
+          "src": "/media/portfolio/chinese-gp/08.webp",
           "width": 1517,
           "height": 2048,
           "alt": "Chinese GP 8"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/09.webp",
+          "src": "/media/portfolio/chinese-gp/09.webp",
           "width": 1517,
           "height": 2048,
           "alt": "Chinese GP 9"
         },
         {
-          "src": "/media/portfolio/Chinese-GP/10.webp",
+          "src": "/media/portfolio/chinese-gp/10.webp",
           "width": 2048,
           "height": 1517,
           "alt": "Chinese GP 10"
@@ -1398,7 +1422,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/01.webp",
+              "src": "/media/portfolio/chinese-gp/01.webp",
               "width": 1517,
               "height": 2048,
               "alt": "Chinese GP 1"
@@ -1409,7 +1433,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/02.webp",
+              "src": "/media/portfolio/chinese-gp/02.webp",
               "width": 1517,
               "height": 2048,
               "alt": "Chinese GP 2"
@@ -1420,7 +1444,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/03.webp",
+              "src": "/media/portfolio/chinese-gp/03.webp",
               "width": 1517,
               "height": 2048,
               "alt": "Chinese GP 3"
@@ -1431,7 +1455,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/04.webp",
+              "src": "/media/portfolio/chinese-gp/04.webp",
               "width": 2048,
               "height": 1517,
               "alt": "Chinese GP 4"
@@ -1442,7 +1466,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/05.webp",
+              "src": "/media/portfolio/chinese-gp/05.webp",
               "width": 2048,
               "height": 1366,
               "alt": "Chinese GP 5"
@@ -1453,7 +1477,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/06.webp",
+              "src": "/media/portfolio/chinese-gp/06.webp",
               "width": 1517,
               "height": 2048,
               "alt": "Chinese GP 6"
@@ -1464,7 +1488,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/07.webp",
+              "src": "/media/portfolio/chinese-gp/07.webp",
               "width": 1517,
               "height": 2048,
               "alt": "Chinese GP 7"
@@ -1475,7 +1499,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/08.webp",
+              "src": "/media/portfolio/chinese-gp/08.webp",
               "width": 1517,
               "height": 2048,
               "alt": "Chinese GP 8"
@@ -1486,7 +1510,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/09.webp",
+              "src": "/media/portfolio/chinese-gp/09.webp",
               "width": 1517,
               "height": 2048,
               "alt": "Chinese GP 9"
@@ -1497,7 +1521,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/Chinese-GP/10.webp",
+              "src": "/media/portfolio/chinese-gp/10.webp",
               "width": 2048,
               "height": 1517,
               "alt": "Chinese GP 10"
@@ -1511,7 +1535,7 @@
       "isCollection": false
     },
     {
-      "slug": "WISETABLE",
+      "slug": "wisetable",
       "title": "WISETABLE",
       "section": "Commercial Work",
       "sectionOrder": 2,
@@ -1520,125 +1544,147 @@
       "summary": "",
       "year": "2025-2026",
       "role": "Photography, Direction, Copywriting, Editing, Styling",
+      "roles": [
+        {
+          "name": "Photography",
+          "contribution": 80
+        },
+        {
+          "name": "Direction",
+          "contribution": 80
+        },
+        {
+          "name": "Copywriting",
+          "contribution": 80
+        },
+        {
+          "name": "Editing",
+          "contribution": 80
+        },
+        {
+          "name": "Styling",
+          "contribution": 80
+        }
+      ],
       "contribution": 80,
       "client": "Wiselycompany",
       "cover": {
-        "src": "/media/portfolio/WISETABLE/01.webp",
+        "src": "/media/portfolio/wisetable/01.webp",
         "width": 2160,
         "height": 1440,
         "alt": "WISETABLE 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/WISETABLE/01.webp",
+          "src": "/media/portfolio/wisetable/01.webp",
           "width": 2160,
           "height": 1440,
           "alt": "WISETABLE 1"
         },
         {
-          "src": "/media/portfolio/WISETABLE/02.webp",
+          "src": "/media/portfolio/wisetable/02.webp",
           "width": 960,
           "height": 1440,
           "alt": "WISETABLE 2"
         },
         {
-          "src": "/media/portfolio/WISETABLE/03.webp",
+          "src": "/media/portfolio/wisetable/03.webp",
           "width": 1049,
           "height": 1440,
           "alt": "WISETABLE 3"
         },
         {
-          "src": "/media/portfolio/WISETABLE/04.webp",
+          "src": "/media/portfolio/wisetable/04.webp",
           "width": 2219,
           "height": 1440,
           "alt": "WISETABLE 4"
         },
         {
-          "src": "/media/portfolio/WISETABLE/05.webp",
+          "src": "/media/portfolio/wisetable/05.webp",
           "width": 1102,
           "height": 1440,
           "alt": "WISETABLE 5"
         },
         {
-          "src": "/media/portfolio/WISETABLE/06.webp",
+          "src": "/media/portfolio/wisetable/06.webp",
           "width": 2160,
           "height": 1440,
           "alt": "WISETABLE 6"
         },
         {
-          "src": "/media/portfolio/WISETABLE/07.webp",
+          "src": "/media/portfolio/wisetable/07.webp",
           "width": 1200,
           "height": 1440,
           "alt": "WISETABLE 7"
         },
         {
-          "src": "/media/portfolio/WISETABLE/08.webp",
+          "src": "/media/portfolio/wisetable/08.webp",
           "width": 1080,
           "height": 1440,
           "alt": "WISETABLE 8"
         },
         {
-          "src": "/media/portfolio/WISETABLE/09.webp",
+          "src": "/media/portfolio/wisetable/09.webp",
           "width": 1200,
           "height": 1440,
           "alt": "WISETABLE 9"
         },
         {
-          "src": "/media/portfolio/WISETABLE/10.webp",
+          "src": "/media/portfolio/wisetable/10.webp",
           "width": 1200,
           "height": 1440,
           "alt": "WISETABLE 10"
         },
         {
-          "src": "/media/portfolio/WISETABLE/11.webp",
+          "src": "/media/portfolio/wisetable/11.webp",
           "width": 1152,
           "height": 1440,
           "alt": "WISETABLE 11"
         },
         {
-          "src": "/media/portfolio/WISETABLE/12.webp",
+          "src": "/media/portfolio/wisetable/12.webp",
           "width": 1152,
           "height": 1440,
           "alt": "WISETABLE 12"
         },
         {
-          "src": "/media/portfolio/WISETABLE/17.webp",
+          "src": "/media/portfolio/wisetable/17.webp",
           "width": 1083,
           "height": 1440,
           "alt": "WISETABLE 17"
         },
         {
-          "src": "/media/portfolio/WISETABLE/18.webp",
+          "src": "/media/portfolio/wisetable/18.webp",
           "width": 1083,
           "height": 1440,
           "alt": "WISETABLE 18"
         },
         {
-          "src": "/media/portfolio/WISETABLE/19.webp",
+          "src": "/media/portfolio/wisetable/19.webp",
           "width": 1083,
           "height": 1440,
           "alt": "WISETABLE 19"
         },
         {
-          "src": "/media/portfolio/WISETABLE/20.webp",
+          "src": "/media/portfolio/wisetable/20.webp",
           "width": 1287,
           "height": 1440,
           "alt": "WISETABLE 20"
         },
         {
-          "src": "/media/portfolio/WISETABLE/21.webp",
+          "src": "/media/portfolio/wisetable/21.webp",
           "width": 1915,
           "height": 1440,
           "alt": "WISETABLE 21"
         },
         {
-          "src": "/media/portfolio/WISETABLE/22.webp",
+          "src": "/media/portfolio/wisetable/22.webp",
           "width": 1083,
           "height": 1440,
           "alt": "WISETABLE 22"
         },
         {
-          "src": "/media/portfolio/WISETABLE/23.webp",
+          "src": "/media/portfolio/wisetable/23.webp",
           "width": 1082,
           "height": 1440,
           "alt": "WISETABLE 23"
@@ -1646,55 +1692,55 @@
       ],
       "wallImages": [
         {
-          "src": "/media/portfolio/WISETABLE/13.webp",
+          "src": "/media/portfolio/wisetable/13.webp",
           "width": 961,
           "height": 1440,
           "alt": "WISETABLE 13"
         },
         {
-          "src": "/media/portfolio/WISETABLE/14.webp",
+          "src": "/media/portfolio/wisetable/14.webp",
           "width": 1101,
           "height": 1440,
           "alt": "WISETABLE 14"
         },
         {
-          "src": "/media/portfolio/WISETABLE/15.webp",
+          "src": "/media/portfolio/wisetable/15.webp",
           "width": 2160,
           "height": 1440,
           "alt": "WISETABLE 15"
         },
         {
-          "src": "/media/portfolio/WISETABLE/16.webp",
+          "src": "/media/portfolio/wisetable/16.webp",
           "width": 2160,
           "height": 1440,
           "alt": "WISETABLE 16"
         },
         {
-          "src": "/media/portfolio/WISETABLE/24.webp",
+          "src": "/media/portfolio/wisetable/24.webp",
           "width": 1083,
           "height": 1440,
           "alt": "WISETABLE 24"
         },
         {
-          "src": "/media/portfolio/WISETABLE/25.webp",
+          "src": "/media/portfolio/wisetable/25.webp",
           "width": 2160,
           "height": 1440,
           "alt": "WISETABLE 25"
         },
         {
-          "src": "/media/portfolio/WISETABLE/26.webp",
+          "src": "/media/portfolio/wisetable/26.webp",
           "width": 2160,
           "height": 1440,
           "alt": "WISETABLE 26"
         },
         {
-          "src": "/media/portfolio/WISETABLE/27.webp",
+          "src": "/media/portfolio/wisetable/27.webp",
           "width": 2160,
           "height": 1440,
           "alt": "WISETABLE 27"
         },
         {
-          "src": "/media/portfolio/WISETABLE/28.webp",
+          "src": "/media/portfolio/wisetable/28.webp",
           "width": 2385,
           "height": 1440,
           "alt": "WISETABLE 28"
@@ -1706,7 +1752,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/01.webp",
+              "src": "/media/portfolio/wisetable/01.webp",
               "width": 2160,
               "height": 1440,
               "alt": "WISETABLE 1"
@@ -1717,7 +1763,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/02.webp",
+              "src": "/media/portfolio/wisetable/02.webp",
               "width": 960,
               "height": 1440,
               "alt": "WISETABLE 2"
@@ -1728,7 +1774,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/03.webp",
+              "src": "/media/portfolio/wisetable/03.webp",
               "width": 1049,
               "height": 1440,
               "alt": "WISETABLE 3"
@@ -1739,7 +1785,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/04.webp",
+              "src": "/media/portfolio/wisetable/04.webp",
               "width": 2219,
               "height": 1440,
               "alt": "WISETABLE 4"
@@ -1750,7 +1796,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/05.webp",
+              "src": "/media/portfolio/wisetable/05.webp",
               "width": 1102,
               "height": 1440,
               "alt": "WISETABLE 5"
@@ -1761,7 +1807,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/06.webp",
+              "src": "/media/portfolio/wisetable/06.webp",
               "width": 2160,
               "height": 1440,
               "alt": "WISETABLE 6"
@@ -1772,7 +1818,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/07.webp",
+              "src": "/media/portfolio/wisetable/07.webp",
               "width": 1200,
               "height": 1440,
               "alt": "WISETABLE 7"
@@ -1783,7 +1829,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/08.webp",
+              "src": "/media/portfolio/wisetable/08.webp",
               "width": 1080,
               "height": 1440,
               "alt": "WISETABLE 8"
@@ -1794,7 +1840,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/09.webp",
+              "src": "/media/portfolio/wisetable/09.webp",
               "width": 1200,
               "height": 1440,
               "alt": "WISETABLE 9"
@@ -1805,7 +1851,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/10.webp",
+              "src": "/media/portfolio/wisetable/10.webp",
               "width": 1200,
               "height": 1440,
               "alt": "WISETABLE 10"
@@ -1816,7 +1862,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/11.webp",
+              "src": "/media/portfolio/wisetable/11.webp",
               "width": 1152,
               "height": 1440,
               "alt": "WISETABLE 11"
@@ -1827,7 +1873,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/12.webp",
+              "src": "/media/portfolio/wisetable/12.webp",
               "width": 1152,
               "height": 1440,
               "alt": "WISETABLE 12"
@@ -1838,25 +1884,25 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/13.webp",
+              "src": "/media/portfolio/wisetable/13.webp",
               "width": 961,
               "height": 1440,
               "alt": "WISETABLE 13"
             },
             {
-              "src": "/media/portfolio/WISETABLE/14.webp",
+              "src": "/media/portfolio/wisetable/14.webp",
               "width": 1101,
               "height": 1440,
               "alt": "WISETABLE 14"
             },
             {
-              "src": "/media/portfolio/WISETABLE/15.webp",
+              "src": "/media/portfolio/wisetable/15.webp",
               "width": 2160,
               "height": 1440,
               "alt": "WISETABLE 15"
             },
             {
-              "src": "/media/portfolio/WISETABLE/16.webp",
+              "src": "/media/portfolio/wisetable/16.webp",
               "width": 2160,
               "height": 1440,
               "alt": "WISETABLE 16"
@@ -1867,7 +1913,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/17.webp",
+              "src": "/media/portfolio/wisetable/17.webp",
               "width": 1083,
               "height": 1440,
               "alt": "WISETABLE 17"
@@ -1878,7 +1924,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/18.webp",
+              "src": "/media/portfolio/wisetable/18.webp",
               "width": 1083,
               "height": 1440,
               "alt": "WISETABLE 18"
@@ -1889,7 +1935,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/19.webp",
+              "src": "/media/portfolio/wisetable/19.webp",
               "width": 1083,
               "height": 1440,
               "alt": "WISETABLE 19"
@@ -1900,7 +1946,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/20.webp",
+              "src": "/media/portfolio/wisetable/20.webp",
               "width": 1287,
               "height": 1440,
               "alt": "WISETABLE 20"
@@ -1911,7 +1957,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/21.webp",
+              "src": "/media/portfolio/wisetable/21.webp",
               "width": 1915,
               "height": 1440,
               "alt": "WISETABLE 21"
@@ -1922,7 +1968,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/22.webp",
+              "src": "/media/portfolio/wisetable/22.webp",
               "width": 1083,
               "height": 1440,
               "alt": "WISETABLE 22"
@@ -1933,7 +1979,7 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/23.webp",
+              "src": "/media/portfolio/wisetable/23.webp",
               "width": 1082,
               "height": 1440,
               "alt": "WISETABLE 23"
@@ -1944,31 +1990,31 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/WISETABLE/24.webp",
+              "src": "/media/portfolio/wisetable/24.webp",
               "width": 1083,
               "height": 1440,
               "alt": "WISETABLE 24"
             },
             {
-              "src": "/media/portfolio/WISETABLE/25.webp",
+              "src": "/media/portfolio/wisetable/25.webp",
               "width": 2160,
               "height": 1440,
               "alt": "WISETABLE 25"
             },
             {
-              "src": "/media/portfolio/WISETABLE/26.webp",
+              "src": "/media/portfolio/wisetable/26.webp",
               "width": 2160,
               "height": 1440,
               "alt": "WISETABLE 26"
             },
             {
-              "src": "/media/portfolio/WISETABLE/27.webp",
+              "src": "/media/portfolio/wisetable/27.webp",
               "width": 2160,
               "height": 1440,
               "alt": "WISETABLE 27"
             },
             {
-              "src": "/media/portfolio/WISETABLE/28.webp",
+              "src": "/media/portfolio/wisetable/28.webp",
               "width": 2385,
               "height": 1440,
               "alt": "WISETABLE 28"
@@ -1990,7 +2036,21 @@
       "category": "Beauty",
       "summary": "",
       "year": "2026",
-      "role": "Photography / Retouching / Visual identity",
+      "role": "Photography, Retouching, Visual identity",
+      "roles": [
+        {
+          "name": "Photography",
+          "contribution": 80
+        },
+        {
+          "name": "Retouching",
+          "contribution": 80
+        },
+        {
+          "name": "Visual identity",
+          "contribution": 80
+        }
+      ],
       "contribution": 80,
       "client": "Axiom",
       "cover": {
@@ -2406,9 +2466,15 @@
       "sectionOrder": 2,
       "projectOrder": 3,
       "category": "Fashion",
-      "summary": "그래픽 기반의 스트릿 패션 브랜드 러프앤터프입니다. 네 멋대로 해! 라는 브랜드 슬로건 아래 매 시즌 색다른 주제로 컬렉션을 전개했습니다.",
+      "summary": "",
       "year": "2021-2022",
       "role": "Creative Director",
+      "roles": [
+        {
+          "name": "Creative Director",
+          "contribution": 100100100
+        }
+      ],
       "contribution": 100100100,
       "client": "RUFFNTUFF",
       "cover": {
@@ -2434,6 +2500,7 @@
           "summary": "",
           "year": "",
           "role": "",
+          "roles": [],
           "contribution": 0,
           "client": "",
           "cover": {
@@ -2809,6 +2876,7 @@
           "summary": "",
           "year": "",
           "role": "",
+          "roles": [],
           "contribution": 0,
           "client": "",
           "cover": {
@@ -3093,6 +3161,7 @@
           "summary": "",
           "year": "",
           "role": "",
+          "roles": [],
           "contribution": 0,
           "client": "",
           "cover": {
@@ -3438,6 +3507,7 @@
       "summary": "",
       "year": "",
       "role": "",
+      "roles": [],
       "contribution": 0,
       "client": "",
       "cover": {
@@ -3518,6 +3588,7 @@
       "summary": "",
       "year": "",
       "role": "",
+      "roles": [],
       "contribution": 0,
       "client": "",
       "cover": {
