@@ -39,8 +39,8 @@
       "title": "Personal Work",
       "order": 1,
       "categories": [
-        "Personal work",
-        "Danang"
+        "Trip",
+        "Personal work"
       ]
     },
     {
@@ -48,7 +48,7 @@
       "order": 2,
       "categories": [
         "Food",
-        "Lifestyle",
+        "Beauty",
         "21SS",
         "21FW",
         "22SS",
@@ -70,7 +70,7 @@
       "section": "Personal Work",
       "sectionOrder": 1,
       "projectOrder": 1,
-      "category": "Personal work",
+      "category": "Trip",
       "summary": "미국 서부를 돌아다니며 남긴 기록",
       "year": "2025",
       "role": "Photography",
@@ -897,95 +897,95 @@
       "isCollection": false
     },
     {
-      "slug": "danang-notes",
-      "title": "Danang Notes",
+      "slug": "Movement",
+      "title": "Danang",
       "section": "Personal Work",
       "sectionOrder": 1,
       "projectOrder": 2,
-      "category": "Danang",
-      "summary": "낯선 장소의 표면과 빛을 따라간 짧은 여행 기록.",
-      "year": "2025",
-      "role": "Photography / Editing",
+      "category": "Trip",
+      "summary": "다낭과 움직임",
+      "year": "2026",
+      "role": "Photography",
       "contribution": 100,
       "client": "",
       "cover": {
-        "src": "/media/portfolio/danang-notes/01.webp",
+        "src": "/media/portfolio/Movement/01.webp",
         "width": 1366,
         "height": 2048,
-        "alt": "Danang Notes 1"
+        "alt": "Danang 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/danang-notes/01.webp",
+          "src": "/media/portfolio/Movement/01.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang Notes 1"
+          "alt": "Danang 1"
         },
         {
-          "src": "/media/portfolio/danang-notes/02.webp",
+          "src": "/media/portfolio/Movement/02.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang Notes 2"
+          "alt": "Danang 2"
         },
         {
-          "src": "/media/portfolio/danang-notes/03.webp",
+          "src": "/media/portfolio/Movement/03.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang Notes 3"
+          "alt": "Danang 3"
         },
         {
-          "src": "/media/portfolio/danang-notes/04.webp",
+          "src": "/media/portfolio/Movement/04.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang Notes 4"
+          "alt": "Danang 4"
         },
         {
-          "src": "/media/portfolio/danang-notes/05.webp",
+          "src": "/media/portfolio/Movement/05.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang Notes 5"
+          "alt": "Danang 5"
         },
         {
-          "src": "/media/portfolio/danang-notes/06.webp",
+          "src": "/media/portfolio/Movement/06.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang Notes 6"
+          "alt": "Danang 6"
         },
         {
-          "src": "/media/portfolio/danang-notes/07.webp",
+          "src": "/media/portfolio/Movement/07.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang Notes 7"
+          "alt": "Danang 7"
         },
         {
-          "src": "/media/portfolio/danang-notes/08.webp",
+          "src": "/media/portfolio/Movement/08.webp",
           "width": 1366,
           "height": 2048,
-          "alt": "Danang Notes 8"
+          "alt": "Danang 8"
         },
         {
-          "src": "/media/portfolio/danang-notes/09.webp",
+          "src": "/media/portfolio/Movement/09.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Danang Notes 9"
+          "alt": "Danang 9"
         },
         {
-          "src": "/media/portfolio/danang-notes/10.webp",
+          "src": "/media/portfolio/Movement/10.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Danang Notes 10"
+          "alt": "Danang 10"
         },
         {
-          "src": "/media/portfolio/danang-notes/11.webp",
+          "src": "/media/portfolio/Movement/11.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Danang Notes 11"
+          "alt": "Danang 11"
         },
         {
-          "src": "/media/portfolio/danang-notes/12.webp",
+          "src": "/media/portfolio/Movement/12.webp",
           "width": 2048,
           "height": 1366,
-          "alt": "Danang Notes 12"
+          "alt": "Danang 12"
         }
       ],
       "wallImages": [],
@@ -995,10 +995,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/01.webp",
+              "src": "/media/portfolio/Movement/01.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang Notes 1"
+              "alt": "Danang 1"
             }
           ]
         },
@@ -1006,10 +1006,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/02.webp",
+              "src": "/media/portfolio/Movement/02.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang Notes 2"
+              "alt": "Danang 2"
             }
           ]
         },
@@ -1017,10 +1017,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/03.webp",
+              "src": "/media/portfolio/Movement/03.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang Notes 3"
+              "alt": "Danang 3"
             }
           ]
         },
@@ -1028,10 +1028,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/04.webp",
+              "src": "/media/portfolio/Movement/04.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang Notes 4"
+              "alt": "Danang 4"
             }
           ]
         },
@@ -1039,10 +1039,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/05.webp",
+              "src": "/media/portfolio/Movement/05.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang Notes 5"
+              "alt": "Danang 5"
             }
           ]
         },
@@ -1050,10 +1050,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/06.webp",
+              "src": "/media/portfolio/Movement/06.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang Notes 6"
+              "alt": "Danang 6"
             }
           ]
         },
@@ -1061,10 +1061,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/07.webp",
+              "src": "/media/portfolio/Movement/07.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang Notes 7"
+              "alt": "Danang 7"
             }
           ]
         },
@@ -1072,10 +1072,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/08.webp",
+              "src": "/media/portfolio/Movement/08.webp",
               "width": 1366,
               "height": 2048,
-              "alt": "Danang Notes 8"
+              "alt": "Danang 8"
             }
           ]
         },
@@ -1083,10 +1083,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/09.webp",
+              "src": "/media/portfolio/Movement/09.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Danang Notes 9"
+              "alt": "Danang 9"
             }
           ]
         },
@@ -1094,10 +1094,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/10.webp",
+              "src": "/media/portfolio/Movement/10.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Danang Notes 10"
+              "alt": "Danang 10"
             }
           ]
         },
@@ -1105,10 +1105,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/11.webp",
+              "src": "/media/portfolio/Movement/11.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Danang Notes 11"
+              "alt": "Danang 11"
             }
           ]
         },
@@ -1116,10 +1116,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/danang-notes/12.webp",
+              "src": "/media/portfolio/Movement/12.webp",
               "width": 2048,
               "height": 1366,
-              "alt": "Danang Notes 12"
+              "alt": "Danang 12"
             }
           ]
         }
@@ -1511,193 +1511,193 @@
       "isCollection": false
     },
     {
-      "slug": "wisetable",
-      "title": "Wisetable",
+      "slug": "WISETABLE",
+      "title": "WISETABLE",
       "section": "Commercial Work",
       "sectionOrder": 2,
       "projectOrder": 1,
       "category": "Food",
-      "summary": "제품의 재료감과 사용 장면을 담은 콘텐츠 시리즈.",
-      "year": "2024",
-      "role": "Photography",
-      "contribution": 60,
-      "client": "Wisetable",
+      "summary": "",
+      "year": "2025-2026",
+      "role": "Photography, Direction, Copywriting, Editing, Styling",
+      "contribution": 80,
+      "client": "Wiselycompany",
       "cover": {
-        "src": "/media/portfolio/wisetable/01.webp",
+        "src": "/media/portfolio/WISETABLE/01.webp",
         "width": 2160,
         "height": 1440,
-        "alt": "Wisetable 1"
+        "alt": "WISETABLE 1"
       },
       "images": [
         {
-          "src": "/media/portfolio/wisetable/01.webp",
+          "src": "/media/portfolio/WISETABLE/01.webp",
           "width": 2160,
           "height": 1440,
-          "alt": "Wisetable 1"
+          "alt": "WISETABLE 1"
         },
         {
-          "src": "/media/portfolio/wisetable/02.webp",
+          "src": "/media/portfolio/WISETABLE/02.webp",
           "width": 960,
           "height": 1440,
-          "alt": "Wisetable 2"
+          "alt": "WISETABLE 2"
         },
         {
-          "src": "/media/portfolio/wisetable/03.webp",
+          "src": "/media/portfolio/WISETABLE/03.webp",
           "width": 1049,
           "height": 1440,
-          "alt": "Wisetable 3"
+          "alt": "WISETABLE 3"
         },
         {
-          "src": "/media/portfolio/wisetable/04.webp",
+          "src": "/media/portfolio/WISETABLE/04.webp",
           "width": 2219,
           "height": 1440,
-          "alt": "Wisetable 4"
+          "alt": "WISETABLE 4"
         },
         {
-          "src": "/media/portfolio/wisetable/05.webp",
+          "src": "/media/portfolio/WISETABLE/05.webp",
           "width": 1102,
           "height": 1440,
-          "alt": "Wisetable 5"
+          "alt": "WISETABLE 5"
         },
         {
-          "src": "/media/portfolio/wisetable/06.webp",
+          "src": "/media/portfolio/WISETABLE/06.webp",
           "width": 2160,
           "height": 1440,
-          "alt": "Wisetable 6"
+          "alt": "WISETABLE 6"
         },
         {
-          "src": "/media/portfolio/wisetable/07.webp",
+          "src": "/media/portfolio/WISETABLE/07.webp",
           "width": 1200,
           "height": 1440,
-          "alt": "Wisetable 7"
+          "alt": "WISETABLE 7"
         },
         {
-          "src": "/media/portfolio/wisetable/08.webp",
+          "src": "/media/portfolio/WISETABLE/08.webp",
           "width": 1080,
           "height": 1440,
-          "alt": "Wisetable 8"
+          "alt": "WISETABLE 8"
         },
         {
-          "src": "/media/portfolio/wisetable/09.webp",
+          "src": "/media/portfolio/WISETABLE/09.webp",
           "width": 1200,
           "height": 1440,
-          "alt": "Wisetable 9"
+          "alt": "WISETABLE 9"
         },
         {
-          "src": "/media/portfolio/wisetable/10.webp",
+          "src": "/media/portfolio/WISETABLE/10.webp",
           "width": 1200,
           "height": 1440,
-          "alt": "Wisetable 10"
+          "alt": "WISETABLE 10"
         },
         {
-          "src": "/media/portfolio/wisetable/11.webp",
+          "src": "/media/portfolio/WISETABLE/11.webp",
           "width": 1152,
           "height": 1440,
-          "alt": "Wisetable 11"
+          "alt": "WISETABLE 11"
         },
         {
-          "src": "/media/portfolio/wisetable/12.webp",
+          "src": "/media/portfolio/WISETABLE/12.webp",
           "width": 1152,
           "height": 1440,
-          "alt": "Wisetable 12"
+          "alt": "WISETABLE 12"
         },
         {
-          "src": "/media/portfolio/wisetable/17.webp",
+          "src": "/media/portfolio/WISETABLE/17.webp",
           "width": 1083,
           "height": 1440,
-          "alt": "Wisetable 17"
+          "alt": "WISETABLE 17"
         },
         {
-          "src": "/media/portfolio/wisetable/18.webp",
+          "src": "/media/portfolio/WISETABLE/18.webp",
           "width": 1083,
           "height": 1440,
-          "alt": "Wisetable 18"
+          "alt": "WISETABLE 18"
         },
         {
-          "src": "/media/portfolio/wisetable/19.webp",
+          "src": "/media/portfolio/WISETABLE/19.webp",
           "width": 1083,
           "height": 1440,
-          "alt": "Wisetable 19"
+          "alt": "WISETABLE 19"
         },
         {
-          "src": "/media/portfolio/wisetable/20.webp",
+          "src": "/media/portfolio/WISETABLE/20.webp",
           "width": 1287,
           "height": 1440,
-          "alt": "Wisetable 20"
+          "alt": "WISETABLE 20"
         },
         {
-          "src": "/media/portfolio/wisetable/21.webp",
+          "src": "/media/portfolio/WISETABLE/21.webp",
           "width": 1915,
           "height": 1440,
-          "alt": "Wisetable 21"
+          "alt": "WISETABLE 21"
         },
         {
-          "src": "/media/portfolio/wisetable/22.webp",
+          "src": "/media/portfolio/WISETABLE/22.webp",
           "width": 1083,
           "height": 1440,
-          "alt": "Wisetable 22"
+          "alt": "WISETABLE 22"
         },
         {
-          "src": "/media/portfolio/wisetable/23.webp",
+          "src": "/media/portfolio/WISETABLE/23.webp",
           "width": 1082,
           "height": 1440,
-          "alt": "Wisetable 23"
+          "alt": "WISETABLE 23"
         }
       ],
       "wallImages": [
         {
-          "src": "/media/portfolio/wisetable/13.webp",
+          "src": "/media/portfolio/WISETABLE/13.webp",
           "width": 961,
           "height": 1440,
-          "alt": "Wisetable 13"
+          "alt": "WISETABLE 13"
         },
         {
-          "src": "/media/portfolio/wisetable/14.webp",
+          "src": "/media/portfolio/WISETABLE/14.webp",
           "width": 1101,
           "height": 1440,
-          "alt": "Wisetable 14"
+          "alt": "WISETABLE 14"
         },
         {
-          "src": "/media/portfolio/wisetable/15.webp",
+          "src": "/media/portfolio/WISETABLE/15.webp",
           "width": 2160,
           "height": 1440,
-          "alt": "Wisetable 15"
+          "alt": "WISETABLE 15"
         },
         {
-          "src": "/media/portfolio/wisetable/16.webp",
+          "src": "/media/portfolio/WISETABLE/16.webp",
           "width": 2160,
           "height": 1440,
-          "alt": "Wisetable 16"
+          "alt": "WISETABLE 16"
         },
         {
-          "src": "/media/portfolio/wisetable/24.webp",
+          "src": "/media/portfolio/WISETABLE/24.webp",
           "width": 1083,
           "height": 1440,
-          "alt": "Wisetable 24"
+          "alt": "WISETABLE 24"
         },
         {
-          "src": "/media/portfolio/wisetable/25.webp",
+          "src": "/media/portfolio/WISETABLE/25.webp",
           "width": 2160,
           "height": 1440,
-          "alt": "Wisetable 25"
+          "alt": "WISETABLE 25"
         },
         {
-          "src": "/media/portfolio/wisetable/26.webp",
+          "src": "/media/portfolio/WISETABLE/26.webp",
           "width": 2160,
           "height": 1440,
-          "alt": "Wisetable 26"
+          "alt": "WISETABLE 26"
         },
         {
-          "src": "/media/portfolio/wisetable/27.webp",
+          "src": "/media/portfolio/WISETABLE/27.webp",
           "width": 2160,
           "height": 1440,
-          "alt": "Wisetable 27"
+          "alt": "WISETABLE 27"
         },
         {
-          "src": "/media/portfolio/wisetable/28.webp",
+          "src": "/media/portfolio/WISETABLE/28.webp",
           "width": 2385,
           "height": 1440,
-          "alt": "Wisetable 28"
+          "alt": "WISETABLE 28"
         }
       ],
       "wallInsertAfter": 12,
@@ -1706,10 +1706,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/01.webp",
+              "src": "/media/portfolio/WISETABLE/01.webp",
               "width": 2160,
               "height": 1440,
-              "alt": "Wisetable 1"
+              "alt": "WISETABLE 1"
             }
           ]
         },
@@ -1717,10 +1717,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/02.webp",
+              "src": "/media/portfolio/WISETABLE/02.webp",
               "width": 960,
               "height": 1440,
-              "alt": "Wisetable 2"
+              "alt": "WISETABLE 2"
             }
           ]
         },
@@ -1728,10 +1728,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/03.webp",
+              "src": "/media/portfolio/WISETABLE/03.webp",
               "width": 1049,
               "height": 1440,
-              "alt": "Wisetable 3"
+              "alt": "WISETABLE 3"
             }
           ]
         },
@@ -1739,10 +1739,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/04.webp",
+              "src": "/media/portfolio/WISETABLE/04.webp",
               "width": 2219,
               "height": 1440,
-              "alt": "Wisetable 4"
+              "alt": "WISETABLE 4"
             }
           ]
         },
@@ -1750,10 +1750,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/05.webp",
+              "src": "/media/portfolio/WISETABLE/05.webp",
               "width": 1102,
               "height": 1440,
-              "alt": "Wisetable 5"
+              "alt": "WISETABLE 5"
             }
           ]
         },
@@ -1761,10 +1761,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/06.webp",
+              "src": "/media/portfolio/WISETABLE/06.webp",
               "width": 2160,
               "height": 1440,
-              "alt": "Wisetable 6"
+              "alt": "WISETABLE 6"
             }
           ]
         },
@@ -1772,10 +1772,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/07.webp",
+              "src": "/media/portfolio/WISETABLE/07.webp",
               "width": 1200,
               "height": 1440,
-              "alt": "Wisetable 7"
+              "alt": "WISETABLE 7"
             }
           ]
         },
@@ -1783,10 +1783,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/08.webp",
+              "src": "/media/portfolio/WISETABLE/08.webp",
               "width": 1080,
               "height": 1440,
-              "alt": "Wisetable 8"
+              "alt": "WISETABLE 8"
             }
           ]
         },
@@ -1794,10 +1794,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/09.webp",
+              "src": "/media/portfolio/WISETABLE/09.webp",
               "width": 1200,
               "height": 1440,
-              "alt": "Wisetable 9"
+              "alt": "WISETABLE 9"
             }
           ]
         },
@@ -1805,10 +1805,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/10.webp",
+              "src": "/media/portfolio/WISETABLE/10.webp",
               "width": 1200,
               "height": 1440,
-              "alt": "Wisetable 10"
+              "alt": "WISETABLE 10"
             }
           ]
         },
@@ -1816,10 +1816,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/11.webp",
+              "src": "/media/portfolio/WISETABLE/11.webp",
               "width": 1152,
               "height": 1440,
-              "alt": "Wisetable 11"
+              "alt": "WISETABLE 11"
             }
           ]
         },
@@ -1827,10 +1827,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/12.webp",
+              "src": "/media/portfolio/WISETABLE/12.webp",
               "width": 1152,
               "height": 1440,
-              "alt": "Wisetable 12"
+              "alt": "WISETABLE 12"
             }
           ]
         },
@@ -1838,28 +1838,28 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/13.webp",
+              "src": "/media/portfolio/WISETABLE/13.webp",
               "width": 961,
               "height": 1440,
-              "alt": "Wisetable 13"
+              "alt": "WISETABLE 13"
             },
             {
-              "src": "/media/portfolio/wisetable/14.webp",
+              "src": "/media/portfolio/WISETABLE/14.webp",
               "width": 1101,
               "height": 1440,
-              "alt": "Wisetable 14"
+              "alt": "WISETABLE 14"
             },
             {
-              "src": "/media/portfolio/wisetable/15.webp",
+              "src": "/media/portfolio/WISETABLE/15.webp",
               "width": 2160,
               "height": 1440,
-              "alt": "Wisetable 15"
+              "alt": "WISETABLE 15"
             },
             {
-              "src": "/media/portfolio/wisetable/16.webp",
+              "src": "/media/portfolio/WISETABLE/16.webp",
               "width": 2160,
               "height": 1440,
-              "alt": "Wisetable 16"
+              "alt": "WISETABLE 16"
             }
           ]
         },
@@ -1867,10 +1867,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/17.webp",
+              "src": "/media/portfolio/WISETABLE/17.webp",
               "width": 1083,
               "height": 1440,
-              "alt": "Wisetable 17"
+              "alt": "WISETABLE 17"
             }
           ]
         },
@@ -1878,10 +1878,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/18.webp",
+              "src": "/media/portfolio/WISETABLE/18.webp",
               "width": 1083,
               "height": 1440,
-              "alt": "Wisetable 18"
+              "alt": "WISETABLE 18"
             }
           ]
         },
@@ -1889,10 +1889,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/19.webp",
+              "src": "/media/portfolio/WISETABLE/19.webp",
               "width": 1083,
               "height": 1440,
-              "alt": "Wisetable 19"
+              "alt": "WISETABLE 19"
             }
           ]
         },
@@ -1900,10 +1900,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/20.webp",
+              "src": "/media/portfolio/WISETABLE/20.webp",
               "width": 1287,
               "height": 1440,
-              "alt": "Wisetable 20"
+              "alt": "WISETABLE 20"
             }
           ]
         },
@@ -1911,10 +1911,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/21.webp",
+              "src": "/media/portfolio/WISETABLE/21.webp",
               "width": 1915,
               "height": 1440,
-              "alt": "Wisetable 21"
+              "alt": "WISETABLE 21"
             }
           ]
         },
@@ -1922,10 +1922,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/22.webp",
+              "src": "/media/portfolio/WISETABLE/22.webp",
               "width": 1083,
               "height": 1440,
-              "alt": "Wisetable 22"
+              "alt": "WISETABLE 22"
             }
           ]
         },
@@ -1933,10 +1933,10 @@
           "type": "image",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/23.webp",
+              "src": "/media/portfolio/WISETABLE/23.webp",
               "width": 1082,
               "height": 1440,
-              "alt": "Wisetable 23"
+              "alt": "WISETABLE 23"
             }
           ]
         },
@@ -1944,34 +1944,34 @@
           "type": "wall",
           "images": [
             {
-              "src": "/media/portfolio/wisetable/24.webp",
+              "src": "/media/portfolio/WISETABLE/24.webp",
               "width": 1083,
               "height": 1440,
-              "alt": "Wisetable 24"
+              "alt": "WISETABLE 24"
             },
             {
-              "src": "/media/portfolio/wisetable/25.webp",
+              "src": "/media/portfolio/WISETABLE/25.webp",
               "width": 2160,
               "height": 1440,
-              "alt": "Wisetable 25"
+              "alt": "WISETABLE 25"
             },
             {
-              "src": "/media/portfolio/wisetable/26.webp",
+              "src": "/media/portfolio/WISETABLE/26.webp",
               "width": 2160,
               "height": 1440,
-              "alt": "Wisetable 26"
+              "alt": "WISETABLE 26"
             },
             {
-              "src": "/media/portfolio/wisetable/27.webp",
+              "src": "/media/portfolio/WISETABLE/27.webp",
               "width": 2160,
               "height": 1440,
-              "alt": "Wisetable 27"
+              "alt": "WISETABLE 27"
             },
             {
-              "src": "/media/portfolio/wisetable/28.webp",
+              "src": "/media/portfolio/WISETABLE/28.webp",
               "width": 2385,
               "height": 1440,
-              "alt": "Wisetable 28"
+              "alt": "WISETABLE 28"
             }
           ]
         }
@@ -1987,12 +1987,12 @@
       "section": "Commercial Work",
       "sectionOrder": 2,
       "projectOrder": 2,
-      "category": "Lifestyle",
-      "summary": "움직임이 있는 라이프스타일 제품을 차분한 프레임으로 기록.",
-      "year": "2024",
-      "role": "Photography / Retouching",
+      "category": "Beauty",
+      "summary": "",
+      "year": "2026",
+      "role": "Photography / Retouching / Visual identity",
       "contribution": 80,
-      "client": "ROADIC",
+      "client": "Axiom",
       "cover": {
         "src": "/media/portfolio/roadic/01.webp",
         "width": 3200,
