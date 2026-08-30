@@ -69,13 +69,13 @@ portfolio-content/
 슬러그: roadic
 카테고리: Lifestyle
 연도: 2024
-역할별 기여도: Photography 100%, Direction 80%, Retouching 70%
+역할 및 기여도: Photography 100 / Direction 80 / Retouching 70
 클라이언트: ROADIC
 ```
 
 `제목`과 `슬러그`를 생략하면 폴더 이름으로 자동 생성합니다. 이미 공개한 프로젝트의 슬러그는 주소가 바뀌므로 가급적 유지합니다.
 프로젝트 설명은 입력하지 않습니다. 이미지 설명도 파일 순서에 맞춰 자동 생성됩니다.
-`역할별 기여도`에는 역할과 해당 기여도를 쉼표로 구분해 원하는 만큼 입력합니다. 예: `Photography 100%, Direction 80%, Editing 60%`
+`역할 및 기여도`에는 역할과 해당 기여도를 `/`로 구분해 원하는 만큼 입력합니다. 예: `Creative director 100 / Retouching 100 / Visual identity 50`
 
 ## 배포 전 한 번만 할 일
 

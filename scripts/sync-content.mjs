@@ -82,7 +82,7 @@ function numberField(value, fallback) {
 
 function roleFields(meta) {
   const fallbackContribution = numberField(field(meta, "기여도", "contribution"), 100);
-  const combined = field(meta, "역할별 기여도", "rolecontributions", "roles");
+  const combined = field(meta, "역할 및 기여도", "역할별 기여도", "rolecontributions", "roles");
   const values = combined || field(meta, "역할", "role");
   return values.split(/[,|/]/u).map((value) => value.trim()).filter(Boolean).map((value) => {
     const match = value.match(/^(.*?)(?:\s*[:=]\s*|\s+)(\d+(?:\.\d+)?)%?$/u);
