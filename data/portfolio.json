@@ -4214,26 +4214,26 @@
       "cover": {
         "src": "/media/portfolio/yonbek-mochi/01.webp",
         "width": 3200,
-        "height": 2070,
+        "height": 3684,
         "alt": "YONBEK MOCHI 1"
       },
       "images": [
         {
           "src": "/media/portfolio/yonbek-mochi/01.webp",
           "width": 3200,
-          "height": 2070,
+          "height": 3684,
           "alt": "YONBEK MOCHI 1"
         },
         {
           "src": "/media/portfolio/yonbek-mochi/02.webp",
           "width": 3200,
-          "height": 3900,
+          "height": 2070,
           "alt": "YONBEK MOCHI 2"
         },
         {
           "src": "/media/portfolio/yonbek-mochi/03.webp",
           "width": 3200,
-          "height": 3684,
+          "height": 3900,
           "alt": "YONBEK MOCHI 3"
         },
         {
@@ -4282,7 +4282,7 @@
             {
               "src": "/media/portfolio/yonbek-mochi/01.webp",
               "width": 3200,
-              "height": 2070,
+              "height": 3684,
               "alt": "YONBEK MOCHI 1"
             }
           ]
@@ -4293,7 +4293,7 @@
             {
               "src": "/media/portfolio/yonbek-mochi/02.webp",
               "width": 3200,
-              "height": 3900,
+              "height": 2070,
               "alt": "YONBEK MOCHI 2"
             }
           ]
@@ -4304,7 +4304,7 @@
             {
               "src": "/media/portfolio/yonbek-mochi/03.webp",
               "width": 3200,
-              "height": 3684,
+              "height": 3900,
               "alt": "YONBEK MOCHI 3"
             }
           ]
@@ -5108,50 +5108,50 @@
       "cover": {
         "src": "/media/portfolio/beauty/01.webp",
         "width": 1440,
-        "height": 803,
+        "height": 1728,
         "alt": "Beauty 1"
       },
       "images": [
         {
           "src": "/media/portfolio/beauty/01.webp",
           "width": 1440,
-          "height": 803,
+          "height": 1728,
           "alt": "Beauty 1"
         },
         {
           "src": "/media/portfolio/beauty/02.webp",
           "width": 1440,
-          "height": 2204,
+          "height": 1728,
           "alt": "Beauty 2"
         },
         {
           "src": "/media/portfolio/beauty/03.webp",
           "width": 1440,
-          "height": 1872,
+          "height": 1832,
           "alt": "Beauty 3"
         },
         {
           "src": "/media/portfolio/beauty/04.webp",
           "width": 1440,
-          "height": 1126,
+          "height": 803,
           "alt": "Beauty 4"
         },
         {
           "src": "/media/portfolio/beauty/05.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 2204,
           "alt": "Beauty 5"
         },
         {
           "src": "/media/portfolio/beauty/06.webp",
           "width": 1440,
-          "height": 2159,
+          "height": 1872,
           "alt": "Beauty 6"
         },
         {
           "src": "/media/portfolio/beauty/07.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 1126,
           "alt": "Beauty 7"
         },
         {
@@ -5163,61 +5163,61 @@
         {
           "src": "/media/portfolio/beauty/09.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 2159,
           "alt": "Beauty 9"
         },
         {
           "src": "/media/portfolio/beauty/10.webp",
           "width": 1440,
-          "height": 1440,
+          "height": 1728,
           "alt": "Beauty 10"
         },
         {
           "src": "/media/portfolio/beauty/11.webp",
           "width": 1440,
-          "height": 1440,
+          "height": 1728,
           "alt": "Beauty 11"
         },
         {
           "src": "/media/portfolio/beauty/12.webp",
           "width": 1440,
-          "height": 960,
+          "height": 1440,
           "alt": "Beauty 12"
         },
         {
           "src": "/media/portfolio/beauty/13.webp",
           "width": 1440,
-          "height": 2193,
+          "height": 1440,
           "alt": "Beauty 13"
         },
         {
           "src": "/media/portfolio/beauty/14.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 960,
           "alt": "Beauty 14"
         },
         {
           "src": "/media/portfolio/beauty/15.webp",
           "width": 1440,
-          "height": 1851,
+          "height": 2193,
           "alt": "Beauty 15"
         },
         {
           "src": "/media/portfolio/beauty/16.webp",
           "width": 1440,
-          "height": 1440,
+          "height": 1728,
           "alt": "Beauty 16"
         },
         {
           "src": "/media/portfolio/beauty/17.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 1851,
           "alt": "Beauty 17"
         },
         {
           "src": "/media/portfolio/beauty/18.webp",
           "width": 1440,
-          "height": 2205,
+          "height": 1440,
           "alt": "Beauty 18"
         },
         {
@@ -5229,7 +5229,7 @@
         {
           "src": "/media/portfolio/beauty/20.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 2205,
           "alt": "Beauty 20"
         },
         {
@@ -5241,73 +5241,73 @@
         {
           "src": "/media/portfolio/beauty/22.webp",
           "width": 1440,
-          "height": 1944,
+          "height": 1728,
           "alt": "Beauty 22"
         },
         {
           "src": "/media/portfolio/beauty/23.webp",
           "width": 1440,
-          "height": 1440,
+          "height": 1728,
           "alt": "Beauty 23"
         },
         {
           "src": "/media/portfolio/beauty/24.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 1944,
           "alt": "Beauty 24"
         },
         {
           "src": "/media/portfolio/beauty/25.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 1440,
           "alt": "Beauty 25"
         },
         {
           "src": "/media/portfolio/beauty/26.webp",
           "width": 1440,
-          "height": 1851,
+          "height": 1728,
           "alt": "Beauty 26"
         },
         {
           "src": "/media/portfolio/beauty/27.webp",
           "width": 1440,
-          "height": 2882,
+          "height": 1728,
           "alt": "Beauty 27"
         },
         {
           "src": "/media/portfolio/beauty/28.webp",
           "width": 1440,
-          "height": 2542,
+          "height": 1851,
           "alt": "Beauty 28"
         },
         {
           "src": "/media/portfolio/beauty/29.webp",
           "width": 1440,
-          "height": 1440,
+          "height": 2882,
           "alt": "Beauty 29"
         },
         {
           "src": "/media/portfolio/beauty/30.webp",
           "width": 1440,
-          "height": 960,
+          "height": 2542,
           "alt": "Beauty 30"
         },
         {
           "src": "/media/portfolio/beauty/31.webp",
           "width": 1440,
-          "height": 960,
+          "height": 1440,
           "alt": "Beauty 31"
         },
         {
           "src": "/media/portfolio/beauty/32.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 960,
           "alt": "Beauty 32"
         },
         {
           "src": "/media/portfolio/beauty/33.webp",
           "width": 1440,
-          "height": 1727,
+          "height": 960,
           "alt": "Beauty 33"
         },
         {
@@ -5319,7 +5319,7 @@
         {
           "src": "/media/portfolio/beauty/35.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 1727,
           "alt": "Beauty 35"
         },
         {
@@ -5331,7 +5331,7 @@
         {
           "src": "/media/portfolio/beauty/37.webp",
           "width": 1440,
-          "height": 1832,
+          "height": 1728,
           "alt": "Beauty 37"
         },
         {
@@ -5343,92 +5343,86 @@
         {
           "src": "/media/portfolio/beauty/39.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 1456,
           "alt": "Beauty 39"
         },
         {
           "src": "/media/portfolio/beauty/40.webp",
           "width": 1440,
-          "height": 1456,
+          "height": 1728,
           "alt": "Beauty 40"
         },
         {
           "src": "/media/portfolio/beauty/41.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 2010,
           "alt": "Beauty 41"
         },
         {
           "src": "/media/portfolio/beauty/42.webp",
           "width": 1440,
-          "height": 2010,
+          "height": 1852,
           "alt": "Beauty 42"
         },
         {
           "src": "/media/portfolio/beauty/43.webp",
           "width": 1440,
-          "height": 1852,
+          "height": 956,
           "alt": "Beauty 43"
         },
         {
           "src": "/media/portfolio/beauty/44.webp",
           "width": 1440,
-          "height": 956,
+          "height": 2158,
           "alt": "Beauty 44"
         },
         {
           "src": "/media/portfolio/beauty/45.webp",
           "width": 1440,
-          "height": 2158,
+          "height": 1440,
           "alt": "Beauty 45"
         },
         {
           "src": "/media/portfolio/beauty/46.webp",
           "width": 1440,
-          "height": 1440,
+          "height": 1728,
           "alt": "Beauty 46"
         },
         {
           "src": "/media/portfolio/beauty/47.webp",
           "width": 1440,
-          "height": 1728,
+          "height": 1922,
           "alt": "Beauty 47"
         },
         {
           "src": "/media/portfolio/beauty/48.webp",
           "width": 1440,
-          "height": 1922,
+          "height": 1934,
           "alt": "Beauty 48"
         },
         {
           "src": "/media/portfolio/beauty/49.webp",
           "width": 1440,
-          "height": 1934,
+          "height": 1704,
           "alt": "Beauty 49"
         },
         {
           "src": "/media/portfolio/beauty/50.webp",
           "width": 1440,
-          "height": 1704,
+          "height": 1804,
           "alt": "Beauty 50"
         },
         {
           "src": "/media/portfolio/beauty/51.webp",
           "width": 1440,
-          "height": 1804,
+          "height": 1384,
           "alt": "Beauty 51"
         },
         {
           "src": "/media/portfolio/beauty/52.webp",
           "width": 1440,
-          "height": 1384,
-          "alt": "Beauty 52"
-        },
-        {
-          "src": "/media/portfolio/beauty/53.webp",
-          "width": 1440,
           "height": 963,
-          "alt": "Beauty 53"
+          "alt": "Beauty 52"
         }
       ],
       "wallImages": [],
@@ -5440,7 +5434,7 @@
             {
               "src": "/media/portfolio/beauty/01.webp",
               "width": 1440,
-              "height": 803,
+              "height": 1728,
               "alt": "Beauty 1"
             }
           ]
@@ -5451,7 +5445,7 @@
             {
               "src": "/media/portfolio/beauty/02.webp",
               "width": 1440,
-              "height": 2204,
+              "height": 1728,
               "alt": "Beauty 2"
             }
           ]
@@ -5462,7 +5456,7 @@
             {
               "src": "/media/portfolio/beauty/03.webp",
               "width": 1440,
-              "height": 1872,
+              "height": 1832,
               "alt": "Beauty 3"
             }
           ]
@@ -5473,7 +5467,7 @@
             {
               "src": "/media/portfolio/beauty/04.webp",
               "width": 1440,
-              "height": 1126,
+              "height": 803,
               "alt": "Beauty 4"
             }
           ]
@@ -5484,7 +5478,7 @@
             {
               "src": "/media/portfolio/beauty/05.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 2204,
               "alt": "Beauty 5"
             }
           ]
@@ -5495,7 +5489,7 @@
             {
               "src": "/media/portfolio/beauty/06.webp",
               "width": 1440,
-              "height": 2159,
+              "height": 1872,
               "alt": "Beauty 6"
             }
           ]
@@ -5506,7 +5500,7 @@
             {
               "src": "/media/portfolio/beauty/07.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 1126,
               "alt": "Beauty 7"
             }
           ]
@@ -5528,7 +5522,7 @@
             {
               "src": "/media/portfolio/beauty/09.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 2159,
               "alt": "Beauty 9"
             }
           ]
@@ -5539,7 +5533,7 @@
             {
               "src": "/media/portfolio/beauty/10.webp",
               "width": 1440,
-              "height": 1440,
+              "height": 1728,
               "alt": "Beauty 10"
             }
           ]
@@ -5550,7 +5544,7 @@
             {
               "src": "/media/portfolio/beauty/11.webp",
               "width": 1440,
-              "height": 1440,
+              "height": 1728,
               "alt": "Beauty 11"
             }
           ]
@@ -5561,7 +5555,7 @@
             {
               "src": "/media/portfolio/beauty/12.webp",
               "width": 1440,
-              "height": 960,
+              "height": 1440,
               "alt": "Beauty 12"
             }
           ]
@@ -5572,7 +5566,7 @@
             {
               "src": "/media/portfolio/beauty/13.webp",
               "width": 1440,
-              "height": 2193,
+              "height": 1440,
               "alt": "Beauty 13"
             }
           ]
@@ -5583,7 +5577,7 @@
             {
               "src": "/media/portfolio/beauty/14.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 960,
               "alt": "Beauty 14"
             }
           ]
@@ -5594,7 +5588,7 @@
             {
               "src": "/media/portfolio/beauty/15.webp",
               "width": 1440,
-              "height": 1851,
+              "height": 2193,
               "alt": "Beauty 15"
             }
           ]
@@ -5605,7 +5599,7 @@
             {
               "src": "/media/portfolio/beauty/16.webp",
               "width": 1440,
-              "height": 1440,
+              "height": 1728,
               "alt": "Beauty 16"
             }
           ]
@@ -5616,7 +5610,7 @@
             {
               "src": "/media/portfolio/beauty/17.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 1851,
               "alt": "Beauty 17"
             }
           ]
@@ -5627,7 +5621,7 @@
             {
               "src": "/media/portfolio/beauty/18.webp",
               "width": 1440,
-              "height": 2205,
+              "height": 1440,
               "alt": "Beauty 18"
             }
           ]
@@ -5649,7 +5643,7 @@
             {
               "src": "/media/portfolio/beauty/20.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 2205,
               "alt": "Beauty 20"
             }
           ]
@@ -5671,7 +5665,7 @@
             {
               "src": "/media/portfolio/beauty/22.webp",
               "width": 1440,
-              "height": 1944,
+              "height": 1728,
               "alt": "Beauty 22"
             }
           ]
@@ -5682,7 +5676,7 @@
             {
               "src": "/media/portfolio/beauty/23.webp",
               "width": 1440,
-              "height": 1440,
+              "height": 1728,
               "alt": "Beauty 23"
             }
           ]
@@ -5693,7 +5687,7 @@
             {
               "src": "/media/portfolio/beauty/24.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 1944,
               "alt": "Beauty 24"
             }
           ]
@@ -5704,7 +5698,7 @@
             {
               "src": "/media/portfolio/beauty/25.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 1440,
               "alt": "Beauty 25"
             }
           ]
@@ -5715,7 +5709,7 @@
             {
               "src": "/media/portfolio/beauty/26.webp",
               "width": 1440,
-              "height": 1851,
+              "height": 1728,
               "alt": "Beauty 26"
             }
           ]
@@ -5726,7 +5720,7 @@
             {
               "src": "/media/portfolio/beauty/27.webp",
               "width": 1440,
-              "height": 2882,
+              "height": 1728,
               "alt": "Beauty 27"
             }
           ]
@@ -5737,7 +5731,7 @@
             {
               "src": "/media/portfolio/beauty/28.webp",
               "width": 1440,
-              "height": 2542,
+              "height": 1851,
               "alt": "Beauty 28"
             }
           ]
@@ -5748,7 +5742,7 @@
             {
               "src": "/media/portfolio/beauty/29.webp",
               "width": 1440,
-              "height": 1440,
+              "height": 2882,
               "alt": "Beauty 29"
             }
           ]
@@ -5759,7 +5753,7 @@
             {
               "src": "/media/portfolio/beauty/30.webp",
               "width": 1440,
-              "height": 960,
+              "height": 2542,
               "alt": "Beauty 30"
             }
           ]
@@ -5770,7 +5764,7 @@
             {
               "src": "/media/portfolio/beauty/31.webp",
               "width": 1440,
-              "height": 960,
+              "height": 1440,
               "alt": "Beauty 31"
             }
           ]
@@ -5781,7 +5775,7 @@
             {
               "src": "/media/portfolio/beauty/32.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 960,
               "alt": "Beauty 32"
             }
           ]
@@ -5792,7 +5786,7 @@
             {
               "src": "/media/portfolio/beauty/33.webp",
               "width": 1440,
-              "height": 1727,
+              "height": 960,
               "alt": "Beauty 33"
             }
           ]
@@ -5814,7 +5808,7 @@
             {
               "src": "/media/portfolio/beauty/35.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 1727,
               "alt": "Beauty 35"
             }
           ]
@@ -5836,7 +5830,7 @@
             {
               "src": "/media/portfolio/beauty/37.webp",
               "width": 1440,
-              "height": 1832,
+              "height": 1728,
               "alt": "Beauty 37"
             }
           ]
@@ -5858,7 +5852,7 @@
             {
               "src": "/media/portfolio/beauty/39.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 1456,
               "alt": "Beauty 39"
             }
           ]
@@ -5869,7 +5863,7 @@
             {
               "src": "/media/portfolio/beauty/40.webp",
               "width": 1440,
-              "height": 1456,
+              "height": 1728,
               "alt": "Beauty 40"
             }
           ]
@@ -5880,7 +5874,7 @@
             {
               "src": "/media/portfolio/beauty/41.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 2010,
               "alt": "Beauty 41"
             }
           ]
@@ -5891,7 +5885,7 @@
             {
               "src": "/media/portfolio/beauty/42.webp",
               "width": 1440,
-              "height": 2010,
+              "height": 1852,
               "alt": "Beauty 42"
             }
           ]
@@ -5902,7 +5896,7 @@
             {
               "src": "/media/portfolio/beauty/43.webp",
               "width": 1440,
-              "height": 1852,
+              "height": 956,
               "alt": "Beauty 43"
             }
           ]
@@ -5913,7 +5907,7 @@
             {
               "src": "/media/portfolio/beauty/44.webp",
               "width": 1440,
-              "height": 956,
+              "height": 2158,
               "alt": "Beauty 44"
             }
           ]
@@ -5924,7 +5918,7 @@
             {
               "src": "/media/portfolio/beauty/45.webp",
               "width": 1440,
-              "height": 2158,
+              "height": 1440,
               "alt": "Beauty 45"
             }
           ]
@@ -5935,7 +5929,7 @@
             {
               "src": "/media/portfolio/beauty/46.webp",
               "width": 1440,
-              "height": 1440,
+              "height": 1728,
               "alt": "Beauty 46"
             }
           ]
@@ -5946,7 +5940,7 @@
             {
               "src": "/media/portfolio/beauty/47.webp",
               "width": 1440,
-              "height": 1728,
+              "height": 1922,
               "alt": "Beauty 47"
             }
           ]
@@ -5957,7 +5951,7 @@
             {
               "src": "/media/portfolio/beauty/48.webp",
               "width": 1440,
-              "height": 1922,
+              "height": 1934,
               "alt": "Beauty 48"
             }
           ]
@@ -5968,7 +5962,7 @@
             {
               "src": "/media/portfolio/beauty/49.webp",
               "width": 1440,
-              "height": 1934,
+              "height": 1704,
               "alt": "Beauty 49"
             }
           ]
@@ -5979,7 +5973,7 @@
             {
               "src": "/media/portfolio/beauty/50.webp",
               "width": 1440,
-              "height": 1704,
+              "height": 1804,
               "alt": "Beauty 50"
             }
           ]
@@ -5990,7 +5984,7 @@
             {
               "src": "/media/portfolio/beauty/51.webp",
               "width": 1440,
-              "height": 1804,
+              "height": 1384,
               "alt": "Beauty 51"
             }
           ]
@@ -6001,19 +5995,8 @@
             {
               "src": "/media/portfolio/beauty/52.webp",
               "width": 1440,
-              "height": 1384,
-              "alt": "Beauty 52"
-            }
-          ]
-        },
-        {
-          "type": "image",
-          "images": [
-            {
-              "src": "/media/portfolio/beauty/53.webp",
-              "width": 1440,
               "height": 963,
-              "alt": "Beauty 53"
+              "alt": "Beauty 52"
             }
           ]
         }
@@ -6316,14 +6299,14 @@
         },
         {
           "src": "/media/portfolio/choice-is-yours/07.webp",
-          "width": 1366,
-          "height": 2048,
+          "width": 2048,
+          "height": 1366,
           "alt": "Choice is yours 7"
         },
         {
           "src": "/media/portfolio/choice-is-yours/08.webp",
-          "width": 2048,
-          "height": 1366,
+          "width": 1366,
+          "height": 2048,
           "alt": "Choice is yours 8"
         },
         {
@@ -6436,14 +6419,14 @@
         },
         {
           "src": "/media/portfolio/choice-is-yours/27.webp",
-          "width": 1366,
-          "height": 2048,
+          "width": 2048,
+          "height": 1366,
           "alt": "Choice is yours 27"
         },
         {
           "src": "/media/portfolio/choice-is-yours/28.webp",
-          "width": 2048,
-          "height": 1366,
+          "width": 1366,
+          "height": 2048,
           "alt": "Choice is yours 28"
         },
         {
@@ -6557,8 +6540,8 @@
           "images": [
             {
               "src": "/media/portfolio/choice-is-yours/07.webp",
-              "width": 1366,
-              "height": 2048,
+              "width": 2048,
+              "height": 1366,
               "alt": "Choice is yours 7"
             }
           ]
@@ -6568,8 +6551,8 @@
           "images": [
             {
               "src": "/media/portfolio/choice-is-yours/08.webp",
-              "width": 2048,
-              "height": 1366,
+              "width": 1366,
+              "height": 2048,
               "alt": "Choice is yours 8"
             }
           ]
@@ -6777,8 +6760,8 @@
           "images": [
             {
               "src": "/media/portfolio/choice-is-yours/27.webp",
-              "width": 1366,
-              "height": 2048,
+              "width": 2048,
+              "height": 1366,
               "alt": "Choice is yours 27"
             }
           ]
@@ -6788,8 +6771,8 @@
           "images": [
             {
               "src": "/media/portfolio/choice-is-yours/28.webp",
-              "width": 2048,
-              "height": 1366,
+              "width": 1366,
+              "height": 2048,
               "alt": "Choice is yours 28"
             }
           ]
@@ -6886,21 +6869,21 @@
       "client": "Flow xl crew",
       "cover": {
         "src": "/media/portfolio/fxl-after-party/01.webp",
-        "width": 2048,
-        "height": 1365,
+        "width": 1365,
+        "height": 2048,
         "alt": "FXL after party 1"
       },
       "images": [
         {
           "src": "/media/portfolio/fxl-after-party/01.webp",
-          "width": 2048,
-          "height": 1365,
+          "width": 1365,
+          "height": 2048,
           "alt": "FXL after party 1"
         },
         {
           "src": "/media/portfolio/fxl-after-party/02.webp",
-          "width": 1365,
-          "height": 2048,
+          "width": 2048,
+          "height": 1365,
           "alt": "FXL after party 2"
         },
         {
@@ -6911,14 +6894,14 @@
         },
         {
           "src": "/media/portfolio/fxl-after-party/04.webp",
-          "width": 2048,
-          "height": 1365,
+          "width": 1365,
+          "height": 2048,
           "alt": "FXL after party 4"
         },
         {
           "src": "/media/portfolio/fxl-after-party/05.webp",
-          "width": 1365,
-          "height": 2048,
+          "width": 2048,
+          "height": 1365,
           "alt": "FXL after party 5"
         },
         {
@@ -6966,8 +6949,8 @@
           "images": [
             {
               "src": "/media/portfolio/fxl-after-party/01.webp",
-              "width": 2048,
-              "height": 1365,
+              "width": 1365,
+              "height": 2048,
               "alt": "FXL after party 1"
             }
           ]
@@ -6977,8 +6960,8 @@
           "images": [
             {
               "src": "/media/portfolio/fxl-after-party/02.webp",
-              "width": 1365,
-              "height": 2048,
+              "width": 2048,
+              "height": 1365,
               "alt": "FXL after party 2"
             }
           ]
@@ -6999,8 +6982,8 @@
           "images": [
             {
               "src": "/media/portfolio/fxl-after-party/04.webp",
-              "width": 2048,
-              "height": 1365,
+              "width": 1365,
+              "height": 2048,
               "alt": "FXL after party 4"
             }
           ]
@@ -7010,8 +6993,8 @@
           "images": [
             {
               "src": "/media/portfolio/fxl-after-party/05.webp",
-              "width": 1365,
-              "height": 2048,
+              "width": 2048,
+              "height": 1365,
               "alt": "FXL after party 5"
             }
           ]
