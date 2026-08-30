@@ -19,6 +19,8 @@ export type Project = {
   images: PortfolioImage[];
   wallImages: PortfolioImage[];
   wallInsertAfter: number;
+  children?: Project[];
+  isCollection?: boolean;
   featured: boolean;
   homeOrder: number | null;
 };

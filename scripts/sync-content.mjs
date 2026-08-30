@@ -119,20 +119,23 @@ async function main() {
     const contentsRoot = (await exists(path.join(sectionRoot, "contents"))) ? path.join(sectionRoot, "contents") : sectionRoot;
     const sectionCategories = new Set();
 
-    for (const projectFolder of await directories(contentsRoot)) {
+    async function buildProject(projectFolder, projectRootPath, parentSlug = "") {
       const projectParsed = orderedName(projectFolder);
-      const projectRootPath = path.join(contentsRoot, projectFolder);
       const meta = await keyValues(path.join(projectRootPath, "info.txt"));
       const title = field(meta, "제목", "title") || projectParsed.title;
-      const slug = field(meta, "슬러그", "slug") || slugify(title, `project-${sectionParsed.order}-${projectParsed.order}`);
+      const localSlug = field(meta, "슬러그", "slug") || slugify(title, `project-${sectionParsed.order}-${projectParsed.order}`);
+      const slug = parentSlug ? `${parentSlug}/${localSlug}` : localSlug;
       if (usedSlugs.has(slug)) throw new Error(`중복 슬러그: ${slug}`);
       usedSlugs.add(slug);
 
       const entries = await fs.readdir(projectRootPath, { withFileTypes: true });
       const sourceImages = entries.filter((entry) => entry.isFile() && imageExtensions.has(path.extname(entry.name).toLowerCase())).map((entry) => entry.name).sort((a, b) => imageOrder(a).order - imageOrder(b).order || collator.compare(a, b));
-      if (sourceImages.length === 0) throw new Error(`${projectFolder} 폴더에 이미지가 없습니다.`);
+      const childFolders = entries.filter((entry) => entry.isDirectory() && !entry.name.startsWith(".")).map((entry) => entry.name).sort(collator.compare);
+      const children = [];
+      for (const childFolder of childFolders) children.push(await buildProject(childFolder, path.join(projectRootPath, childFolder), slug));
+      if (sourceImages.length === 0 && children.length === 0) throw new Error(`${projectFolder} 폴더에 이미지 또는 하위 프로젝트가 없습니다.`);
 
-      const projectOutput = path.join(outputRoot, slug);
+      const projectOutput = path.join(outputRoot, ...slug.split("/"));
       await fs.mkdir(projectOutput, { recursive: true });
       const images = [];
       const wallImages = [];
@@ -142,44 +145,28 @@ async function main() {
         const outputPath = path.join(projectOutput, outputName);
         await sharp(path.join(projectRootPath, imageName)).rotate().resize({ width: 3200, withoutEnlargement: true }).webp({ quality: 95, effort: 5 }).toFile(outputPath);
         const imageMeta = await sharp(outputPath).metadata();
-        const image = {
-          src: `/media/portfolio/${slug}/${outputName}`,
-          width: imageMeta.width ?? 1600,
-          height: imageMeta.height ?? 1200,
-          alt: field(meta, `이미지${index + 1}설명`, `image${index + 1}alt`) || `${title} ${index + 1}`,
-        };
+        const image = { src: `/media/portfolio/${slug}/${outputName}`, width: imageMeta.width ?? 1600, height: imageMeta.height ?? 1200, alt: field(meta, `이미지${index + 1}설명`, `image${index + 1}alt`) || `${title} ${index + 1}` };
         if (imageOrder(imageName).isWall) {
           if (normalCountBeforeWall === null) normalCountBeforeWall = images.length;
           wallImages.push(image);
-        } else {
-          images.push(image);
-        }
+        } else images.push(image);
       }
       wallImages.sort((a, b) => (b.width / b.height) - (a.width / a.height));
-      const cover = images[0] ?? wallImages[0];
-
+      const cover = images[0] ?? wallImages[0] ?? children[0]?.cover;
       const category = field(meta, "카테고리", "category") || projectParsed.title;
       sectionCategories.add(category);
-      const homeOrder = mainOrder.get(comparable(title)) ?? mainOrder.get(comparable(slug)) ?? null;
-      projects.push({
-        slug,
-        title,
-        section: sectionParsed.title,
-        sectionOrder: sectionParsed.order,
-        projectOrder: projectParsed.order,
-        category,
-        summary: field(meta, "설명", "description", "summary"),
-        year: field(meta, "연도", "year"),
-        role: field(meta, "역할", "role"),
-        contribution: numberField(field(meta, "기여도", "contribution"), 100),
-        client: field(meta, "클라이언트", "client"),
-        cover,
-        images,
-        wallImages,
-        wallInsertAfter: normalCountBeforeWall ?? 0,
-        featured: homeOrder !== null,
-        homeOrder,
-      });
+      const homeOrder = parentSlug ? null : mainOrder.get(comparable(title)) ?? mainOrder.get(comparable(slug)) ?? null;
+      return {
+        slug, title, section: sectionParsed.title, sectionOrder: sectionParsed.order, projectOrder: projectParsed.order,
+        category, summary: field(meta, "설명", "description", "summary"), year: field(meta, "연도", "year"), role: field(meta, "역할", "role"),
+        contribution: numberField(field(meta, "기여도", "contribution"), 100), client: field(meta, "클라이언트", "client"), cover,
+        images, wallImages, wallInsertAfter: normalCountBeforeWall ?? 0, featured: homeOrder !== null, homeOrder,
+        children, isCollection: children.length > 0,
+      };
+    }
+
+    for (const projectFolder of await directories(contentsRoot)) {
+      projects.push(await buildProject(projectFolder, path.join(contentsRoot, projectFolder)));
     }
 
     sections.push({
