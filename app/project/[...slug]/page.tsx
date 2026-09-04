@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import type { CSSProperties } from "react";
 import { projects, siteSettings, type GalleryBlock, type PortfolioImage, type Project } from "@/lib/content";
 import SiteChrome from "@/components/site-chrome";
+import LightboxImage from "@/components/lightbox-image";
 
 function flatten(items: Project[]): Project[] { return items.flatMap((item) => [item, ...flatten(item.children ?? [])]); }
 const allProjects = flatten(projects);
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: `${project.title} — ${siteSettings.name}`, description: `${project.title} portfolio project` };
 }
 
-function GalleryImage({ image }: { image: PortfolioImage }) { return <figure><Image src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="100vw" unoptimized={image.animated} /></figure>; }
+function GalleryImage({ image }: { image: PortfolioImage }) { return <figure><LightboxImage image={image} /></figure>; }
 
 function legacyBlocks(project: Project): GalleryBlock[] {
   const before = project.images.slice(0, project.wallInsertAfter);
@@ -46,7 +47,7 @@ function wallRows(images: PortfolioImage[], targetRatio: number) {
 }
 
 function PhotoWallRows({ rows }: { rows: PortfolioImage[][] }) {
-  return <>{rows.map((row, rowIndex) => <div className="photo-wall-row" key={rowIndex}>{row.map((image) => <figure key={image.src} style={{ "--image-ratio": image.width / image.height } as CSSProperties}><Image src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 700px) 60vw, 35vw" unoptimized={image.animated} /></figure>)}</div>)}</>;
+  return <>{rows.map((row, rowIndex) => <div className="photo-wall-row" key={rowIndex}>{row.map((image) => <figure key={image.src} style={{ "--image-ratio": image.width / image.height } as CSSProperties}><LightboxImage image={image} sizes="(max-width: 700px) 60vw, 35vw" /></figure>)}</div>)}</>;
 }
 
 function PhotoWall({ images, label }: { images: PortfolioImage[]; label: string }) {
