@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "@fontsource/jost/300.css";
 import "@fontsource/jost/400.css";
 import "@fontsource/jost/500.css";
@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   title: "PARK HOJUN photography",
   openGraph: { title: "PARK HOJUN photography", type: "website", images: ["/og.jpg"] },
   twitter: { card: "summary_large_image", title: "PARK HOJUN photography", images: ["/og.jpg"] },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
