@@ -169,6 +169,42 @@ a { color: inherit; text-decoration: none; }
 .contact-inner h1 { margin: 0; font-size: clamp(58px, 10vw, 160px); font-weight: 500; letter-spacing: -.08em; line-height: .86; }
 .contact-details { display: grid; gap: 8px; margin-top: 70px; font-size: clamp(18px, 2vw, 28px); }
 .contact-details a:hover { color: var(--red); }
+
+/* A photographic camera placed on the existing portfolio collage. All screen
+   and button coordinates refer to the untouched 1442 × 1179 source image. */
+.digital-camera { position: absolute; z-index: 4; top: 155px; right: clamp(-30px, 2vw, 60px); width: clamp(570px, 48vw, 800px); aspect-ratio: 1442 / 1179; isolation: isolate; pointer-events: none; user-select: none; }
+/* The revised source trims 28 px from the left. Retain the original scene
+   coordinates so the LCD, controls and responsive placement stay aligned. */
+.camera-body { display: block; width: calc(100% * 1414 / 1442); margin-left: calc(100% * 28 / 1442); height: auto; pointer-events: none; }
+.camera-screen { position: absolute; left: 0; top: 0; width: 44.38280166%; height: 40.71246819%; transform-origin: 0 0; overflow: hidden; border-radius: 1.5%; background: #000; mix-blend-mode: exclusion; pointer-events: none; }
+.camera-photo { display: block; width: 100%; height: 100%; object-fit: contain; opacity: .88; filter: saturate(.88) contrast(.96); animation: camera-photo-arrive 140ms ease-out; }
+.camera-controls { position: absolute; left: 63.03744799%; top: 52.24766751%; width: 13.9%; aspect-ratio: 1; transform: translate(-50%, -50%) rotate(16deg); pointer-events: none; }
+/* Four disjoint wedges leave the central OK button inactive, including on touch. */
+.camera-button { position: absolute; inset: 0; width: 100%; height: 100%; padding: 0; border: 0; background: transparent; color: white; cursor: pointer; pointer-events: auto; touch-action: pan-y pinch-zoom; -webkit-tap-highlight-color: transparent; }
+.camera-button-up { clip-path: polygon(0 0,100% 0,calc(50% + var(--camera-center)) calc(50% - var(--camera-center)),calc(50% - var(--camera-center)) calc(50% - var(--camera-center))); }
+.camera-button-down { clip-path: polygon(0 100%,calc(50% - var(--camera-center)) calc(50% + var(--camera-center)),calc(50% + var(--camera-center)) calc(50% + var(--camera-center)),100% 100%); }
+.camera-button-left { clip-path: polygon(0 0,calc(50% - var(--camera-center)) calc(50% - var(--camera-center)),calc(50% - var(--camera-center)) calc(50% + var(--camera-center)),0 100%); }
+.camera-button-right { clip-path: polygon(100% 0,100% 100%,calc(50% + var(--camera-center)) calc(50% + var(--camera-center)),calc(50% + var(--camera-center)) calc(50% - var(--camera-center))); }
+.camera-button:focus-visible { outline: 0; background: rgba(255,255,255,.38); }
+.camera-press { position: absolute; width: 3.2%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%; pointer-events: none; transition: background 80ms ease, box-shadow 80ms ease; }
+.camera-press.is-pressed { background: rgba(0,0,0,.42); box-shadow: inset 0 2px 4px rgba(0,0,0,.7); }
+.camera-button:disabled { cursor: default; }
+.camera-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+@keyframes camera-photo-arrive { from { opacity: .65; } to { opacity: .88; } }
+@media (min-width: 701px) and (max-width: 1800px) { .digital-camera { top: 225px; } }
+@media (min-width: 701px) and (max-width: 1200px) {
+  .digital-camera { top: 225px; right: -10px; width: min(650px, 80%); }
+  .hero-with-camera .float-three { right: 27%; }
+}
+@media (max-width: 700px) {
+  .hero.hero-with-camera { min-height: 0; padding-bottom: 0; }
+  .hero-with-camera .digital-camera { position: relative; top: auto; right: auto; width: min(125%, 640px); margin: 40px 0 -30px; margin-left: 50%; transform: translateX(-41%); }
+  .hero-with-camera + .home-index { margin-top: 0; }
+}
+@media (pointer: coarse) {
+  .camera-controls { width: max(16%, 104px); }
+}
+@media (prefers-reduced-motion: reduce) { .camera-photo { animation: none; } }
 @media (max-width: 900px) {
   .home-index, .home-footer, .contact-footer { padding-left: 34px; padding-right: 34px; }
   .home-index .project-index { grid-template-columns: repeat(2, minmax(0, 1fr)); }

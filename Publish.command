@@ -32,6 +32,7 @@ npm run build
 
 echo "[3/4] 변경 내용을 Git에 기록합니다."
 git add data/portfolio.json public/media/portfolio public/media/float
+git add data/camera.json public/media/camera components/digital-camera.tsx lib/camera.ts scripts/sync-camera.mjs scripts/camera.test.mjs
 git add -u
 
 if git diff --cached --quiet; then

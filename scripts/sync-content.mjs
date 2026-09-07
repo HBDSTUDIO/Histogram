@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
+import { syncCameraAssets } from "./sync-camera.mjs";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, "..");
@@ -231,6 +232,7 @@ async function main() {
 
   await fs.mkdir(path.dirname(dataFile), { recursive: true });
   await fs.writeFile(dataFile, `${JSON.stringify({ siteSettings, floatImages, sections, projects }, null, 2)}\n`, "utf8");
+  await syncCameraAssets();
   console.log(`완료: 프로젝트 ${projects.length}개, 웹 이미지 ${projects.reduce((sum, project) => sum + project.images.length + project.wallImages.length, 0)}개, Float ${floatImages.length}개`);
 }
 

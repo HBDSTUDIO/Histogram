@@ -6,10 +6,14 @@
     "node": ">=22.13.0"
   },
   "scripts": {
+    "predev": "npm run camera:sync",
     "dev": "next dev",
+    "prebuild": "npm run camera:sync",
     "build": "next build",
     "start": "next start",
     "content:sync": "node scripts/sync-content.mjs",
+    "camera:sync": "node scripts/sync-camera.mjs",
+    "test:camera": "node --experimental-strip-types --test scripts/camera.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
   },
   "dependencies": {

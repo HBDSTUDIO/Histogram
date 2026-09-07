@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { floatImages, projects, siteSettings, type Project } from "@/lib/content";
 import SiteChrome from "@/components/site-chrome";
+import DigitalCamera from "@/components/digital-camera";
+import camera from "@/data/camera.json";
 
 function orderedProjects() {
   return [...projects].sort((a, b) => (a.homeOrder ?? 9999) - (b.homeOrder ?? 9999) || a.sectionOrder - b.sectionOrder || a.projectOrder - b.projectOrder);
@@ -22,11 +24,12 @@ export default function Home() {
   const ordered = orderedProjects();
   const floatClasses = ["float-one", "float-two", "float-three", "float-four", "float-five"];
   return <SiteChrome><main className="site-shell" id="top"><div className="page-content">
-    <section className="hero" aria-labelledby="hero-title">
+    <section className="hero hero-with-camera" aria-labelledby="hero-title">
       <div className="hero-copy"><h1 id="hero-title">{siteSettings.name}</h1></div>
       <div className="hero-meta"><p>Histogram<br />{siteSettings.years}</p><p className="hero-contact">{siteSettings.email}<br />{siteSettings.instagram}</p></div>
       <svg className="histogram-line" viewBox="0 0 1200 520" preserveAspectRatio="none" aria-hidden="true"><path d="M-40 330 C 80 40, 130 65, 220 300 S 390 535, 520 310 S 700 35, 800 245 S 925 425, 1010 250 S 1140 165, 1245 335" /></svg>
       <div className="floating-projects" aria-label="Personal images">{floatImages.slice(0, 5).map((image, index) => <FloatingImage image={image} className={floatClasses[index]} key={image.src} />)}</div>
+      <DigitalCamera routines={camera.routines} />
     </section>
     <section className="home-index" aria-label="All projects">
       <div className="project-index">{ordered.map((project) => <ProjectCard project={project} key={project.slug} />)}</div>
